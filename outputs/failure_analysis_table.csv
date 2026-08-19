@@ -1,0 +1,345 @@
+id,group,question,reference_answer,flat_answer,graph_answer,flat_comprehensiveness,graph_comprehensiveness,flat_faithfulness,graph_faithfulness,flat_multi_hop_reasoning,graph_multi_hop_reasoning,flat_latency_s,graph_latency_s,flat_retrieval_s,graph_retrieval_s,flat_total_tokens,graph_total_tokens,flat_judge_rationale,graph_judge_rationale,graph_matched_seeds,graph_expanded_nodes,graph_collected_edges,graph_supernode_events,graph_global_cap_hit,flat_retrieved_chunks,flat_context,graph_context,flat_score,graph_score,delta
+G05,cross-doc,"Multiple articles mention both Elon Musk and SpaceX. Summarize what the corpus reports about their relationship across those articles, including the relationship types and publication dates.","Across 13 distinct source chunks the corpus links Elon Musk to SpaceX via: FOUNDED, LEADS. Reported dates: 2023-01-12, 2023-07-27, 2023-10-07, 2023-07-07, 2023-01-09, 2023-02-22, 2023-02-03, 2023-01-14, 2023-01-13.","The corpus reports that Elon Musk is the CEO and leader of SpaceX [chunk_id=136d721e010b5241dd0a::c0000, chunk_id=6f87cb5e48c024983c7e::c0000, chunk_id=def538528cbd5aa93496::c0000]. The relationship is characterized by Musk’s leadership in securing partnerships and funding for the company, including:
+
+*   **Leadership and Funding:** Musk led SpaceX in talks with Middle Eastern investors for a $140 billion valuation in March 2023 [chunk_id=136d721e010b5241dd0a::c0000] and oversaw a $750 million funding round from venture capital firms in February 2023 [chunk_id=86cb5f9c878d3eb53479::c0000].
+*   **Partnerships:** Under Musk’s announcement of the Starlink Aviation vertical, SpaceX partnered with Qatar Airways (October 2023) [chunk_id=6f87cb5e48c024983c7e::c0000, chunk_id=def538528cbd5aa93496::c0000] and Elcome International for maritime internet services (January 2023) [chunk_id=7ec0e2da5a7dc0cf7f30::c0000].
+*   **Operations:** Musk’s SpaceX conducted its 70th mission of 2023, launching Starlink satellites in October 2023 [chunk_id=5156990ad28770c257a4::c0000].","Based on the provided corpus, the relationship between Elon Musk and SpaceX is characterized by Musk founding, leading, and owning the company. The specific relationship types and publication dates are as follows:
+
+*   **FOUNDED**: Musk is reported to have founded SpaceX on 2023-10-07 [chunk_id=b73a055f840c48fbb9b2::c0000], 2023-07-27 [chunk_id=43168210f03cb0a63374::c0000], and 2023-01-12 [chunk_id=b2e1a10cdad1061977d7::c0000].
+*   **LEADS**: Musk is reported to lead SpaceX on multiple dates, including 2023-10-07 [chunk_id=f91156691c26554e1fb0::c0000; chunk_id=183e5698c9e39d3ce539::c0000], 2023-07-07 [chunk_id=52cf68fa2f804a20e829::c0000; chunk_id=5f625b8a93a120c23ecb::c0000; chunk_id=f79de83542ec73932873::c0000], 2023-07-03 [chunk_id=c4dc12aae93b84da4ad2::c0000], 2023-02-22 [chunk_id=41ace907dc5bb79b9796::c0000], 2023-02-03 [chunk_id=c29a5a7717a9f4201890::c0000], 2023-01-14 [chunk_id=4d478f2ba01026c42c45::c0000], 2023-01-13 [chunk_id=1d0b8b437183a800054c::c0000], and 2023-01-09 [chunk_id=7ec0e2da5a7dc0cf7f30::c0000].
+*   **OWNED/LEAD (Vector Evidence)**: Vector chunks describe SpaceX as ""Elon Musk-led"" or ""owned by Elon Musk"" on dates including 2023-10-16 [chunk_id=6f87cb5e48c024983c7e::c0000; chunk_id=def538528cbd5aa93496::c0000], 2023-03-24 [chunk_id=136d721e010b5241dd0a::c0000], and 2023-01-09 [chunk_id=7ec0e2da5a7dc0cf7f30::c0000].",1,5,1,5,1,5,57.267,3.923,0.022,1.653,1203,4548,"The candidate answer fails to address the specific constraints of the question, which asks for a summary of relationship types and publication dates across the corpus. Instead, it provides a narrative summary of business events. Crucially, it omits the 'FOUNDED' relationship type explicitly mentioned in the reference and fails to list the specific publication dates required by the prompt. While the content is factually consistent with the provided chunks, it does not answer the specific extraction task requested.","The candidate answer accurately extracts and summarizes the relationship types (FOUNDED, LEADS) and corresponding publication dates from the provided graph and vector contexts. It correctly identifies the specific dates associated with each relationship type as listed in the reference and context, demonstrating high faithfulness and comprehensiveness. The reasoning correctly maps the graph edges to the summary without hallucination.",Elon Musk[EXACT]; SpaceX[EXACT],8,47,0,False,136d721e010b5241dd0a::c0000; 6f87cb5e48c024983c7e::c0000; def538528cbd5aa93496::c0000; 7ec0e2da5a7dc0cf7f30::c0000; 5156990ad28770c257a4::c0000; 86cb5f9c878d3eb53479::c0000,"[chunk_id=136d721e010b5241dd0a::c0000 | date=2023-03-24 | score=0.610]
+Elon Musk’s SpaceX Is Courting Two Middle Eastern Investment Powerhouses. SpaceX is in talks with two Middle Eastern investors to raise a round of private funding that would value the Elon Musk-led space company at $140 billion the Information reported yesterday (March 22).
+
+[chunk_id=6f87cb5e48c024983c7e::c0000 | date=2023-10-16 | score=0.575]
+Elon Musk makes progress with airlines with latest SpaceX announcement. S paceX has gained another large partner in its efforts to grow the Starlink Aviation vertical CEO Elon Musk announced last year. Qatar Airways said Oct. 13 that it has become the largest airline to collaborate with SpaceX in providing Starlink internet access to its customers.
+
+[chunk_id=def538528cbd5aa93496::c0000 | date=2023-10-16 | score=0.551]
+Elon Musk SpaceX score a huge win here on earth. SpaceX has gained another large partner in its efforts to grow the Starlink Aviation vertical CEO Elon Musk announced last year. Qatar Airways said Oct. 13 that it has become the largest airline to collaborate with SpaceX in providing Starlink internet access to its customers.
+
+[chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09 | score=0.538]
+Elon Musk's Starlink and Dubai's Elcome join forces to provide internet to maritime sector. Starlink the satellite internet service operated by Elon Musk''s aerospace company SpaceX has linked up with Dubai-based marine electronics company Elcome International to provide internet services to the maritime industry. The service which uses ...
+
+[chunk_id=5156990ad28770c257a4::c0000 | date=2023-10-06 | score=0.536]
+Elon Musk''s SpaceX in its 70th mission of 2023 launches 22 Starlink satellites. The Falcon 9 rocket lifted off from Cape Canaveral Space Force Station after being delayed by poor weather conditions. This mission brings the total number of operational Starlink satellites to ...
+
+[chunk_id=86cb5f9c878d3eb53479::c0000 | date=2023-02-10 | score=0.505]
+Elon Musk Is One Step Closer to Taking SpaceX’s Starlink Public. Where it falls short we take external investment” she said. SpaceX most recently raised a $750 million funding round from a roster of venture capital firms including Sequoia and Andreessen Horowitz.","=== GRAPH ===
+Elon Musk [Person] -LEADS-> X [Company] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=chief technology officer and owner Elon Musk
+X [Company] -DEVELOPED-> audio video calling [Technology] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=Social media platform X ... is launching an early version of video and audio calling
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-13 | chunk=212ca3357c1aee243caf::c0000 | evidence=SpaceX's Starlink set to launch satellite phone service in 2024.
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=bb3959bf4974afb4ab9c::c0000 | evidence=SpaceX’s Starlink
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=290f7d442d055b3669c0::c0000 | evidence=SpaceX flew its first test Starlink satellites
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-08 | chunk=1204d4e596b20ee8a4cf::c0000 | evidence=SpaceX flew its first test Starlink satellites
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-10-07 | chunk=b73a055f840c48fbb9b2::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=f91156691c26554e1fb0::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=183e5698c9e39d3ce539::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-07 | chunk=31b65821b712cc0ca3b2::c0000 | evidence=SpaceX’s broadband network... Starlink satellites
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=SpaceX founded by Elon Musk
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=satellite internet service called Starlink
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-07-15 | chunk=e48cc45d32942970e27d::c0000 | evidence=Elon Musk's Starlink satellites
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Elon Musk's SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Starlink the satellite communications service operated by SpaceX
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=operate as a service provider using low-orbit satellites
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=operate as an internet service provider using low-orbit satellites
+Elon Musk [Person] -LEADS-> Twitter [Company] | date=2023-07-03 | chunk=5fc1e154ab293d8b01ab::c0000 | evidence=Elon Musk-led social media platform
+Elon Musk [Person] -LEADS-> Space X [Company] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Elon Musk’s company Space X
+Space X [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Starlink is a satellite internet service offered by Elon Musk’s company Space X
+Telstra [Company] -PARTNERED_WITH-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Telstra signs Starlink deal to boost internet service
+Kissner [Person] -WORKED_AT-> Twitter [Company] | date=2023-05-15 | chunk=ad44ef260ad3f84cb7d2::c0000 | evidence=Ex-Twitter Cyber Chief... Mx. Kissner
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-05-09 | chunk=85d75ad94ec8117b4316::c0000 | evidence=Starlink is a satellite-based internet service... as SpaceX launches more rockets
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-03-27 | chunk=95d38b12e8b6acd4ba62::c0000 | evidence=Musk''s Starlink''s V2 sats experience de-orbit-worthy ''issues''
+Elon Musk [Person] -ACQUIRED-> Twitter [Company] | date=2023-03-17 | chunk=250939bab78cf84668d6::c0000 | evidence=Elon Musk-owned Twitter
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-03-01 | chunk=cd1306e00aa6898dcb66::c0000 | evidence=Starlink: SpaceX’s new internet service could be a gamechanger in Africa.
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-02-22 | chunk=41ace907dc5bb79b9796::c0000 | evidence=Elon Musk''s SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-02-22 | chunk=41ace907dc5bb79b9796::c0000 | evidence=Starlink the satellite internet service owned by... SpaceX
+Data Lake [Company] -PARTNERED_WITH-> Starlink [Technology] | date=2023-02-22 | chunk=41ace907dc5bb79b9796::c0000 | evidence=Data Lake... has partnered with Starlink
+Elon Musk [Person] -INVESTED_IN-> Twitter [Company] | date=2023-02-05 | chunk=26caff5622d8bee2daa0::c0000 | evidence=Elon Musk continues to look for ways to make Twitter profitable and make back Elon Musk investment
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-02-03 | chunk=c29a5a7717a9f4201890::c0000 | evidence=the satellite internet unit of Elon Musk''s SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-02-03 | chunk=c29a5a7717a9f4201890::c0000 | evidence=Musk's Starlink internet service... unit of Elon Musk''s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-14 | chunk=4d478f2ba01026c42c45::c0000 | evidence=SpaceX a U.S. space company owned by Elon Musk
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-01-14 | chunk=4d478f2ba01026c42c45::c0000 | evidence=roll out SpaceX network of satellite internet service Starlink
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-13 | chunk=1d0b8b437183a800054c::c0000 | evidence=Elon Musk-run SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-01-13 | chunk=1d0b8b437183a800054c::c0000 | evidence=roll out SpaceX network of satellite internet service Starlink
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-01-12 | chunk=b2e1a10cdad1061977d7::c0000 | evidence=Elon Musk''s Company Powered by SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-01-12 | chunk=b2e1a10cdad1061977d7::c0000 | evidence=Elon Musk''s Company Powered by SpaceX... Try any Starlink service
+Elon Musk [Person] -FOUNDED-> Starlink [Company] | date=2023-01-11 | chunk=d0c75c83cc9804a8333c::c0000 | evidence=Elon Musk's satellite internet service provider Starlink
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-09 | chunk=7ec0e2da5a7dc0cf7f30::c0000 | evidence=Elon Musk''s aerospace company SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-01-09 | chunk=7ec0e2da5a7dc0cf7f30::c0000 | evidence=Starlink operated by... SpaceX
+Starlink [Technology] -PARTNERED_WITH-> Elcome International [Company] | date=2023-01-09 | chunk=7ec0e2da5a7dc0cf7f30::c0000 | evidence=Starlink... has linked up with... Elcome International
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2022-12-27 | chunk=502da577c03c28da9743::c0000 | evidence=Elon Musk’s satellite internet service Starlink
+Microsoft [Company] -PARTNERED_WITH-> Starlink [Technology] | date=2022-12-16 | chunk=7b9ddd9295198a5c6863::c0000 | evidence=Microsoft has announced Microsoft partnership with Starlink-like satellite internet service providing company named Starlink.
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2022-11-30 | chunk=c794170cbb412a080807::c0000 | evidence=SpaceX last week announced the launch of Starlink
+
+=== VECTOR ===
+[chunk_id=136d721e010b5241dd0a::c0000 | date=2023-03-24 | score=0.610]
+Elon Musk’s SpaceX Is Courting Two Middle Eastern Investment Powerhouses. SpaceX is in talks with two Middle Eastern investors to raise a round of private funding that would value the Elon Musk-led space company at $140 billion the Information reported yesterday (March 22).
+
+[chunk_id=6f87cb5e48c024983c7e::c0000 | date=2023-10-16 | score=0.575]
+Elon Musk makes progress with airlines with latest SpaceX announcement. S paceX has gained another large partner in its efforts to grow the Starlink Aviation vertical CEO Elon Musk announced last year. Qatar Airways said Oct. 13 that it has become the largest airline to collaborate with SpaceX in providing Starlink internet access to its customers.
+
+[chunk_id=def538528cbd5aa93496::c0000 | date=2023-10-16 | score=0.551]
+Elon Musk SpaceX score a huge win here on earth. SpaceX has gained another large partner in its efforts to grow the Starlink Aviation vertical CEO Elon Musk announced last year. Qatar Airways said Oct. 13 that it has become the largest airline to collaborate with SpaceX in providing Starlink internet access to its customers.
+
+[chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09 | score=0.538]
+Elon Musk's Starlink and Dubai's Elcome join forces to provide internet to maritime sector. Starlink the satellite internet service operated by Elon Musk''s aerospace company SpaceX has linked up with Dubai-based marine electronics company Elcome International to provide internet services to the maritime industry. The service which uses ...",1.0,5.0,4.0
+G04,cross-doc,"Multiple articles mention both SpaceX and Starlink. Summarize what the corpus reports about their relationship across those articles, including the relationship types and publication dates.","Across 16 distinct source chunks the corpus links SpaceX to Starlink via: DEVELOPED. Reported dates: 2023-01-12, 2023-07-27, 2023-10-07, 2023-10-11, 2023-10-08, 2023-07-07, 2022-11-30, 2023-01-09, 2023-02-22, 2023-10-13, 2023-03-01, 2023-02-03, 2023-05-09, 2023-01-14, 2023-01-13.","The corpus reports that Starlink is a satellite-based internet service owned and operated by SpaceX [chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22]. SpaceX launches Starlink satellites into orbit to expand the network, which provides high-speed internet to hard-to-reach destinations [chunk_id=22bad7e55b84dad0ae43::c0000 | date=2023-07-28; chunk_id=85d75ad94ec8117b4316::c0000 | date=2023-05-09; chunk_id=07ec10c3ab4b7b19b8ae::c0000 | date=2023-01-26]. Additionally, SpaceX plans to launch a Starlink satellite phone service in 2024 [chunk_id=212ca3357c1aee243caf::c0000 | date=2023-10-13]. Starlink has also entered into partnerships with other companies, such as Data Lake in the Philippines and Telstra in Australia, to offer its services [chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22; chunk_id=c4dc12aae93b84da4ad2::c0000 | date=2023-07-03].","The corpus reports that SpaceX developed Starlink, a satellite-based internet service [chunk_id=212ca3357c1aee243caf::c0000] [chunk_id=85d75ad94ec8117b4316::c0000]. Starlink is owned by SpaceX [chunk_id=41ace907dc5bb79b9796::c0000] and operated by the company [chunk_id=f79de83542ec73932873::c0000].
+
+The relationship is consistently identified as **SpaceX [Company] -DEVELOPED-> Starlink [Technology]** across multiple publication dates:
+*   2023-10-13 [chunk_id=212ca3357c1aee243caf::c0000]
+*   2023-10-11 [chunk_id=bb3959bf4974afb4ab9c::c0000] [chunk_id=290f7d442d055b3669c0::c0000]
+*   2023-10-08 [chunk_id=1204d4e596b20ee8a4cf::c0000]
+*   2023-10-07 [chunk_id=31b65821b712cc0ca3b2::c0000]
+*   2023-07-27 [chunk_id=43168210f03cb0a63374::c0000]
+*   2023-07-07 [chunk_id=f79de83542ec73932873::c0000]
+*   2023-07-03 [chunk_id=c4dc12aae93b84da4ad2::c0000]
+*   2023-05-09 [chunk_id=85d75ad94ec8117b4316::c0000]
+
+Additionally, Starlink is described as a service owned by Elon Musk's SpaceX [chunk_id=41ace907dc5bb79b9796::c0000].",1,2,1,4,1,3,57.335,3.722,0.019,1.697,1080,4275,"The candidate answer fails to address the specific constraints of the question, which asks for a summary of relationship types and publication dates across the corpus. Instead, it provides a general narrative about Starlink's services and partnerships. Crucially, it ignores the reference answer's explicit finding that the relationship is 'DEVELOPED' and fails to list the required publication dates. It also hallucinates a launch date of 2015 for Starlink in Australia, which contradicts the provided context and general knowledge, further reducing faithfulness.","The candidate answer correctly identifies the primary relationship type (DEVELOPED) and lists several publication dates present in the context. However, it is significantly less comprehensive than the reference answer, listing only 8 dates compared to the 15 dates in the reference. It also omits the specific count of source chunks (16) mentioned in the reference. While the information provided is faithful to the supplied context, the omission of a majority of the relevant dates makes it incomplete relative to the reference anchor.",SpaceX[EXACT]; Starlink[EXACT],9,82,0,False,212ca3357c1aee243caf::c0000; 22bad7e55b84dad0ae43::c0000; 85d75ad94ec8117b4316::c0000; 41ace907dc5bb79b9796::c0000; c4dc12aae93b84da4ad2::c0000; 07ec10c3ab4b7b19b8ae::c0000,"[chunk_id=212ca3357c1aee243caf::c0000 | date=2023-10-13 | score=0.550]
+SpaceX's Starlink set to launch satellite phone service in 2024. Now we have information on a date for when the satellite phone service will launch additional partners and how it will roll out. On the Starlink website in the business tab the company says ...
+
+[chunk_id=22bad7e55b84dad0ae43::c0000 | date=2023-07-28 | score=0.543]
+SpaceX successfully launches 22 Starlink satellites. The first-stage booster used in the early Friday launch flew its 15th mission. After deploying its payload into space the launch vehicle returned to Earth where it landed upon the autonomous A ...
+
+[chunk_id=85d75ad94ec8117b4316::c0000 | date=2023-05-09 | score=0.540]
+Starlink Roam Internet Keeps Adventurers Dialed In Like Never Before. Starlink is a satellite-based internet service that uses a collection of ... as SpaceX launches more rockets into orbit. In fact the company plans to eventually have 12000 of them circulating ...
+
+[chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22 | score=0.538]
+Satellite internet service Starlink now available in PH. Starlink the satellite internet service owned by Elon Musk''s SpaceX ... In October Data Lake Chairman Anthony Almeda said that the company has partnered with Starlink to offer high-speed ...
+
+[chunk_id=c4dc12aae93b84da4ad2::c0000 | date=2023-07-03 | score=0.536]
+Telstra signs Starlink deal to boost internet service for rural customers. Starlink is a satellite internet service offered by Elon Musk’s company Space X and has been growing in popularity in Australia since it launched in 2015. The company offers access to a ...
+
+[chunk_id=07ec10c3ab4b7b19b8ae::c0000 | date=2023-01-26 | score=0.528]
+SpaceX launched a pre-dawn Falcon 9 Starlink mission from Florida Thursday morning. and two crewed NASA missions to the International Space Station. SpaceX's Starlink network provides high-speed internet service from space to hard-to-reach destinations around the globe.","=== GRAPH ===
+Elon Musk [Person] -LEADS-> X [Company] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=chief technology officer and owner Elon Musk
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-13 | chunk=212ca3357c1aee243caf::c0000 | evidence=SpaceX's Starlink set to launch satellite phone service in 2024.
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=bb3959bf4974afb4ab9c::c0000 | evidence=SpaceX’s Starlink
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=290f7d442d055b3669c0::c0000 | evidence=SpaceX flew its first test Starlink satellites
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-08 | chunk=1204d4e596b20ee8a4cf::c0000 | evidence=SpaceX flew its first test Starlink satellites
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-07 | chunk=31b65821b712cc0ca3b2::c0000 | evidence=SpaceX’s broadband network... Starlink satellites
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-10-07 | chunk=b73a055f840c48fbb9b2::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=f91156691c26554e1fb0::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=183e5698c9e39d3ce539::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Microsoft [Company] -DEVELOPED-> Windows [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft Copilot for Windows launches September 26th
+Microsoft [Company] -DEVELOPED-> Edge [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft’s unified Copilot is coming to Windows Edge
+Microsoft [Company] -DEVELOPED-> Copilot [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft’s unified Copilot is coming to Windows Edge
+SAP [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-09-15 | chunk=80ba9d43bdb89567a46a::c0000 | evidence=SAP and Microsoft Collaborate on Joint Generative AI Offerings
+Microsoft [Company] -INVESTED_IN-> OpenAI [Company] | date=2023-09-10 | chunk=ae77d4dcd7d66b6ebfb4::c0000 | evidence=Microsoft made its first $1 billion investment in San Francisco-based OpenAI in 2019
+Microsoft [Company] -USES-> AI models [Technology] | date=2023-09-10 | chunk=ae77d4dcd7d66b6ebfb4::c0000 | evidence=Microsoft would supply computing power needed to train the AI models
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=satellite internet service called Starlink
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=SpaceX founded by Elon Musk
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-16 | chunk=5e28d48f0b306d254eca::c0000 | evidence=KPMG and Microsoft have announced an expanded global collaboration
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-07-15 | chunk=e48cc45d32942970e27d::c0000 | evidence=Elon Musk's Starlink satellites
+KPMG [Company] -INVESTED_IN-> Microsoft [Company] | date=2023-07-14 | chunk=3dd6936aea051cd1e68c::c0000 | evidence=KPMG has pledged a $2 billion investment in Microsoft Cloud and AI services
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-14 | chunk=3dd6936aea051cd1e68c::c0000 | evidence=KPMG to invest $2 billion in AI in expanded partnership with Microsoft
+Microsoft [Company] -DEVELOPED-> Microsoft Entra [Technology] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Microsoft Entra expands into Security Service Edge
+Microsoft [Company] -DEVELOPED-> Azure AD [Technology] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Azure AD becomes Microsoft Entra ID
+KPMG [Company] -INVESTED_IN-> Microsoft [Company] | date=2023-07-11 | chunk=35f9e232b3c44ebab014::c0000 | evidence=KPMG will spend $2 billion ... through an expanded partnership with Microsoft
+Microsoft [Company] -PARTNERED_WITH-> Wipro [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Edgile a Wipro company
+Microsoft [Company] -PARTNERED_WITH-> Edgile [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including Edgile
+Microsoft [Company] -PARTNERED_WITH-> KPMG [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... KPMG
+Microsoft [Company] -PARTNERED_WITH-> EY [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... EY
+Microsoft [Company] -PARTNERED_WITH-> PwC [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... PwC
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-11 | chunk=35f9e232b3c44ebab014::c0000 | evidence=expanded partnership with Microsoft
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Starlink the satellite communications service operated by SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Elon Musk's SpaceX
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=operate as a service provider using low-orbit satellites
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=operate as an internet service provider using low-orbit satellites
+Space X [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Starlink is a satellite internet service offered by Elon Musk’s company Space X
+Telstra [Company] -PARTNERED_WITH-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Telstra signs Starlink deal to boost internet service
+Elon Musk [Person] -LEADS-> Twitter [Company] | date=2023-07-03 | chunk=5fc1e154ab293d8b01ab::c0000 | evidence=Elon Musk-led social media platform
+Elon Musk [Person] -LEADS-> Space X [Company] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Elon Musk’s company Space X
+Microsoft [Company] -DEVELOPED-> Azure OpenAI Service [Technology] | date=2023-06-15 | chunk=b47b8877c942060c9502::c0000 | evidence=Microsoft's Azure OpenAI Service
+HCLTech [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-06-15 | chunk=b47b8877c942060c9502::c0000 | evidence=HCLTech and Microsoft Expand Collaboration
+Microsoft [Company] -DEVELOPED-> Azure OpenAI Service [Technology] | date=2023-06-09 | chunk=0f5fa36a88eaffbb32a0::c0000 | evidence=Microsoft unveiled its new Azure OpenAI Service
+Bill Chappell [Person] -WORKED_AT-> Microsoft [Company] | date=2023-06-09 | chunk=0f5fa36a88eaffbb32a0::c0000 | evidence=Bill Chappell chief technology officer for Strategic Missions and Technologies
+Options Technology [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-06-08 | chunk=f73febf774301e802436::c0000 | evidence=Options Technology ... announced its achievement of Microsoft Solutions Partner designation
+IFI Techsolutions [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-05-15 | chunk=f2a20c3f98c3fb8dc3cc::c0000 | evidence=As a global Microsoft partner IFI Techsolutions continues to verify IFI Techsolutions excellence
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-05-09 | chunk=85d75ad94ec8117b4316::c0000 | evidence=Starlink is a satellite-based internet service... as SpaceX launches more rockets
+
+=== VECTOR ===
+[chunk_id=212ca3357c1aee243caf::c0000 | date=2023-10-13 | score=0.550]
+SpaceX's Starlink set to launch satellite phone service in 2024. Now we have information on a date for when the satellite phone service will launch additional partners and how it will roll out. On the Starlink website in the business tab the company says ...
+
+[chunk_id=22bad7e55b84dad0ae43::c0000 | date=2023-07-28 | score=0.543]
+SpaceX successfully launches 22 Starlink satellites. The first-stage booster used in the early Friday launch flew its 15th mission. After deploying its payload into space the launch vehicle returned to Earth where it landed upon the autonomous A ...
+
+[chunk_id=85d75ad94ec8117b4316::c0000 | date=2023-05-09 | score=0.540]
+Starlink Roam Internet Keeps Adventurers Dialed In Like Never Before. Starlink is a satellite-based internet service that uses a collection of ... as SpaceX launches more rockets into orbit. In fact the company plans to eventually have 12000 of them circulating ...
+
+[chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22 | score=0.538]
+Satellite internet service Starlink now available in PH. Starlink the satellite internet service owned by Elon Musk''s SpaceX ... In October Data Lake Chairman Anthony Almeda said that the company has partnered with Starlink to offer high-speed ...",1.0,3.0,2.0
+G03,multi-hop,"According to the news corpus, Elon Musk is connected to Starlink through one intermediary entity. Identify the intermediary and state both relationships with their dates.","The intermediary is SpaceX. Elon Musk -FOUNDED-> SpaceX (published 2023-07-27), and SpaceX -DEVELOPED-> Starlink (published 2023-01-12).","Based on the provided context, the intermediary entity is **SpaceX**.
+
+The relationships are:
+1.  **Elon Musk to SpaceX**: SpaceX is described as ""Elon Musk's SpaceX"" or ""Elon Musk's aerospace company SpaceX"" [chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22], [chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09], [chunk_id=c29a5a7717a9f4201890::c0000 | date=2023-02-03], [chunk_id=c4dc12aae93b84da4ad2::c0000 | date=2023-07-03].
+2.  **SpaceX to Starlink**: Starlink is described as the ""satellite internet service owned by Elon Musk's SpaceX"" or ""operated by Elon Musk's aerospace company SpaceX"" [chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22], [chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09], [chunk_id=c29a5a7717a9f4201890::c0000 | date=2023-02-03], [chunk_id=c4dc12aae93b84da4ad2::c0000 | date=2023-07-03].","The intermediary entity is **SpaceX** (also referred to as Space X).
+
+The relationships are:
+1.  **Elon Musk -FOUNDED-> SpaceX**: date=2023-10-07 [chunk_id=b73a055f840c48fbb9b2::c0000] (also date=2023-07-27 [chunk_id=43168210f03cb0a63374::c0000])
+2.  **SpaceX -DEVELOPED-> Starlink**: date=2023-10-13 [chunk_id=212ca3357c1aee243caf::c0000] (also date=2023-10-11 [chunk_id=bb3959bf4974afb4ab9c::c0000], date=2023-10-08 [chunk_id=1204d4e596b20ee8a4cf::c0000], date=2023-10-07 [chunk_id=31b65821b712cc0ca3b2::c0000], date=2023-07-27 [chunk_id=43168210f03cb0a63374::c0000], date=2023-07-07 [chunk_id=f79de83542ec73932873::c0000], date=2023-07-03 [chunk_id=c4dc12aae93b84da4ad2::c0000])",4,5,5,5,4,5,45.989,3.678,0.018,1.926,1166,4138,"The candidate correctly identifies SpaceX as the intermediary and accurately extracts the relationships and dates from the provided context. However, it fails to specify the exact relationship types (e.g., FOUNDED, DEVELOPED) as required by the question and present in the reference answer, instead providing descriptive phrases. While the reasoning is sound and faithful to the text, the lack of precise relationship labels reduces comprehensiveness compared to the reference.","The candidate correctly identifies SpaceX as the intermediary entity and accurately lists the relationships (FOUNDED and DEVELOPED) with dates that are present in the provided candidate context. Although the specific dates differ from the reference answer, they are faithful to the supplied graph data, which contains multiple entries for these relationships. The reasoning correctly links Elon Musk to SpaceX and SpaceX to Starlink.",Elon Musk[EXACT]; Starlink[EXACT],11,84,0,False,41ace907dc5bb79b9796::c0000; 502da577c03c28da9743::c0000; 7ec0e2da5a7dc0cf7f30::c0000; c29a5a7717a9f4201890::c0000; 86cb5f9c878d3eb53479::c0000; c4dc12aae93b84da4ad2::c0000,"[chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22 | score=0.616]
+Satellite internet service Starlink now available in PH. Starlink the satellite internet service owned by Elon Musk''s SpaceX ... In October Data Lake Chairman Anthony Almeda said that the company has partnered with Starlink to offer high-speed ...
+
+[chunk_id=502da577c03c28da9743::c0000 | date=2022-12-27 | score=0.611]
+Elon Musk’s Nigeria internet service launch grabs rivals’ attention. Elon Musk’s satellite internet service Starlink is expected to launch officially ... To confirm the order when he was contacted by the company for delivery he had to pay an additional $501 making it a total of $600 (N267978 at an exchange rate ...
+
+[chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09 | score=0.597]
+Elon Musk's Starlink and Dubai's Elcome join forces to provide internet to maritime sector. Starlink the satellite internet service operated by Elon Musk''s aerospace company SpaceX has linked up with Dubai-based marine electronics company Elcome International to provide internet services to the maritime industry. The service which uses ...
+
+[chunk_id=c29a5a7717a9f4201890::c0000 | date=2023-02-03 | score=0.589]
+Musk's Starlink internet service to be offered in the Philippines in Q1. the satellite internet unit of Elon Musk''s SpaceX is on track to enter the Philippine market this year with its broadband service to be introduced within the first quarter its local partner ...
+
+[chunk_id=86cb5f9c878d3eb53479::c0000 | date=2023-02-10 | score=0.557]
+Elon Musk Is One Step Closer to Taking SpaceX’s Starlink Public. Where it falls short we take external investment” she said. SpaceX most recently raised a $750 million funding round from a roster of venture capital firms including Sequoia and Andreessen Horowitz.
+
+[chunk_id=c4dc12aae93b84da4ad2::c0000 | date=2023-07-03 | score=0.546]
+Telstra signs Starlink deal to boost internet service for rural customers. Starlink is a satellite internet service offered by Elon Musk’s company Space X and has been growing in popularity in Australia since it launched in 2015. The company offers access to a ...","=== GRAPH ===
+Elon Musk [Person] -LEADS-> X [Company] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=chief technology officer and owner Elon Musk
+X [Company] -DEVELOPED-> audio video calling [Technology] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=Social media platform X ... is launching an early version of video and audio calling
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-13 | chunk=212ca3357c1aee243caf::c0000 | evidence=SpaceX's Starlink set to launch satellite phone service in 2024.
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=bb3959bf4974afb4ab9c::c0000 | evidence=SpaceX’s Starlink
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-11 | chunk=290f7d442d055b3669c0::c0000 | evidence=SpaceX flew its first test Starlink satellites
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-08 | chunk=1204d4e596b20ee8a4cf::c0000 | evidence=SpaceX flew its first test Starlink satellites
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-10-07 | chunk=b73a055f840c48fbb9b2::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=f91156691c26554e1fb0::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=183e5698c9e39d3ce539::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-10-07 | chunk=31b65821b712cc0ca3b2::c0000 | evidence=SpaceX’s broadband network... Starlink satellites
+Microsoft [Company] -DEVELOPED-> Windows [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft Copilot for Windows launches September 26th
+Microsoft [Company] -DEVELOPED-> Edge [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft’s unified Copilot is coming to Windows Edge
+Microsoft [Company] -DEVELOPED-> Copilot [Technology] | date=2023-09-21 | chunk=3a5ed6555cadb4149f58::c0000 | evidence=Microsoft’s unified Copilot is coming to Windows Edge
+SAP [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-09-15 | chunk=80ba9d43bdb89567a46a::c0000 | evidence=SAP and Microsoft Collaborate on Joint Generative AI Offerings
+Microsoft [Company] -INVESTED_IN-> OpenAI [Company] | date=2023-09-10 | chunk=ae77d4dcd7d66b6ebfb4::c0000 | evidence=Microsoft made its first $1 billion investment in San Francisco-based OpenAI in 2019
+Microsoft [Company] -USES-> AI models [Technology] | date=2023-09-10 | chunk=ae77d4dcd7d66b6ebfb4::c0000 | evidence=Microsoft would supply computing power needed to train the AI models
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=SpaceX founded by Elon Musk
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=satellite internet service called Starlink
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-16 | chunk=5e28d48f0b306d254eca::c0000 | evidence=KPMG and Microsoft have announced an expanded global collaboration
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-07-15 | chunk=e48cc45d32942970e27d::c0000 | evidence=Elon Musk's Starlink satellites
+KPMG [Company] -INVESTED_IN-> Microsoft [Company] | date=2023-07-14 | chunk=3dd6936aea051cd1e68c::c0000 | evidence=KPMG has pledged a $2 billion investment in Microsoft Cloud and AI services
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-14 | chunk=3dd6936aea051cd1e68c::c0000 | evidence=KPMG to invest $2 billion in AI in expanded partnership with Microsoft
+Microsoft [Company] -DEVELOPED-> Microsoft Entra [Technology] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Microsoft Entra expands into Security Service Edge
+Microsoft [Company] -DEVELOPED-> Azure AD [Technology] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Azure AD becomes Microsoft Entra ID
+KPMG [Company] -INVESTED_IN-> Microsoft [Company] | date=2023-07-11 | chunk=35f9e232b3c44ebab014::c0000 | evidence=KPMG will spend $2 billion ... through an expanded partnership with Microsoft
+Microsoft [Company] -PARTNERED_WITH-> Wipro [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=Edgile a Wipro company
+Microsoft [Company] -PARTNERED_WITH-> Edgile [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including Edgile
+Microsoft [Company] -PARTNERED_WITH-> KPMG [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... KPMG
+Microsoft [Company] -PARTNERED_WITH-> EY [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... EY
+Microsoft [Company] -PARTNERED_WITH-> PwC [Company] | date=2023-07-11 | chunk=f0d61ee52527b38ad28d::c0000 | evidence=integrator partners—including... PwC
+KPMG [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-07-11 | chunk=35f9e232b3c44ebab014::c0000 | evidence=expanded partnership with Microsoft
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Elon Musk's SpaceX
+SpaceX [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Starlink the satellite communications service operated by SpaceX
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=operate as a service provider using low-orbit satellites
+SpaceX [Company] -USES-> low-orbit satellites [Technology] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=operate as an internet service provider using low-orbit satellites
+Elon Musk [Person] -LEADS-> Twitter [Company] | date=2023-07-03 | chunk=5fc1e154ab293d8b01ab::c0000 | evidence=Elon Musk-led social media platform
+Elon Musk [Person] -LEADS-> Space X [Company] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Elon Musk’s company Space X
+Space X [Company] -DEVELOPED-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Starlink is a satellite internet service offered by Elon Musk’s company Space X
+Telstra [Company] -PARTNERED_WITH-> Starlink [Technology] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Telstra signs Starlink deal to boost internet service
+Microsoft [Company] -DEVELOPED-> Azure OpenAI Service [Technology] | date=2023-06-15 | chunk=b47b8877c942060c9502::c0000 | evidence=Microsoft's Azure OpenAI Service
+HCLTech [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-06-15 | chunk=b47b8877c942060c9502::c0000 | evidence=HCLTech and Microsoft Expand Collaboration
+Microsoft [Company] -DEVELOPED-> Azure OpenAI Service [Technology] | date=2023-06-09 | chunk=0f5fa36a88eaffbb32a0::c0000 | evidence=Microsoft unveiled its new Azure OpenAI Service
+Bill Chappell [Person] -WORKED_AT-> Microsoft [Company] | date=2023-06-09 | chunk=0f5fa36a88eaffbb32a0::c0000 | evidence=Bill Chappell chief technology officer for Strategic Missions and Technologies
+Options Technology [Company] -PARTNERED_WITH-> Microsoft [Company] | date=2023-06-08 | chunk=f73febf774301e802436::c0000 | evidence=Options Technology ... announced its achievement of Microsoft Solutions Partner designation
+Kissner [Person] -WORKED_AT-> Twitter [Company] | date=2023-05-15 | chunk=ad44ef260ad3f84cb7d2::c0000 | evidence=Ex-Twitter Cyber Chief... Mx. Kissner
+
+=== VECTOR ===
+[chunk_id=41ace907dc5bb79b9796::c0000 | date=2023-02-22 | score=0.616]
+Satellite internet service Starlink now available in PH. Starlink the satellite internet service owned by Elon Musk''s SpaceX ... In October Data Lake Chairman Anthony Almeda said that the company has partnered with Starlink to offer high-speed ...
+
+[chunk_id=502da577c03c28da9743::c0000 | date=2022-12-27 | score=0.611]
+Elon Musk’s Nigeria internet service launch grabs rivals’ attention. Elon Musk’s satellite internet service Starlink is expected to launch officially ... To confirm the order when he was contacted by the company for delivery he had to pay an additional $501 making it a total of $600 (N267978 at an exchange rate ...
+
+[chunk_id=7ec0e2da5a7dc0cf7f30::c0000 | date=2023-01-09 | score=0.597]
+Elon Musk's Starlink and Dubai's Elcome join forces to provide internet to maritime sector. Starlink the satellite internet service operated by Elon Musk''s aerospace company SpaceX has linked up with Dubai-based marine electronics company Elcome International to provide internet services to the maritime industry. The service which uses ...
+
+[chunk_id=c29a5a7717a9f4201890::c0000 | date=2023-02-03 | score=0.589]
+Musk's Starlink internet service to be offered in the Philippines in Q1. the satellite internet unit of Elon Musk''s SpaceX is on track to enter the Philippine market this year with its broadband service to be introduced within the first quarter its local partner ...",4.333,5.0,0.667
+G01,factoid,Which organization developed audio video calling?,X developed audio video calling. (published 2023-10-25),"Based on the provided context, the social media platform X (formerly known as Twitter) developed and rolled out audio video calling [chunk_id=e23358a050b9d0082016::c0000].",The social media platform X (formerly known as Twitter) developed audio video calling [chunk_id=e23358a050b9d0082016::c0000].,5,5,5,5,5,5,0.361,0.937,0.015,0.599,731,681,"The candidate answer correctly identifies 'X' as the organization that developed audio video calling, which aligns perfectly with the reference answer. It accurately extracts this information from the provided context chunk, specifically noting the platform's former name (Twitter) and the rollout details. The response is concise, faithful to the source text, and directly answers the user's question without introducing external or hallucinated information.","The candidate answer correctly identifies 'X' as the organization that developed audio video calling, which aligns perfectly with the reference answer. The provided context explicitly supports this claim through both the graph relation 'X -DEVELOPED-> audio video calling' and the vector chunk stating 'Social media platform X rolls out audio video calling'. The answer is concise, accurate, and fully grounded in the supplied evidence without introducing external or hallucinated information.",audio video calling[EXACT],2,2,0,False,e23358a050b9d0082016::c0000; d5fdbe867bb46bf8a8e4::c0000; 70988ad245a690fe32c0::c0000; 5ffb6175ca0a9c7c8e9a::c0000; 07e1f2d1a8e325e6ead1::c0000; 94fe460e152858ffaa29::c0000,"[chunk_id=e23358a050b9d0082016::c0000 | date=2023-10-25 | score=0.517]
+Social media platform X rolls out audio video calling. Social media platform X formerly known as Twitter is launching an early version of video and audio calling for some users according to chief technology officer and owner Elon Musk as the billionaire pushes for X to become an '""everything app'"".
+
+[chunk_id=d5fdbe867bb46bf8a8e4::c0000 | date=2023-04-27 | score=0.422]
+Audio-recording Software Market 2023 by Sales Share Growth Opportunity with Top Players are Apple Adobe Digidesign Steinberg. The Audio-recording Software Market report 2023-2030 Industries are expected to develop at the greatest rate of CAGR
+
+[chunk_id=70988ad245a690fe32c0::c0000 | date=2023-07-12 | score=0.373]
+Computer scientists develop software that recreates new images from existing video footage. Researchers at Cornell University and Google Research may have discovered a solution to having to re-shoot video—with new software designed ... based rendering a computer graphics approach ...
+
+[chunk_id=5ffb6175ca0a9c7c8e9a::c0000 | date=2023-01-31 | score=0.349]
+Intercom rides OpenAI’s technology in new services. OpenAI most famous for its current ChatGPT technology has been the inspiration for Intercom’s latest wave of customer service products its co-founders say. Intercom has launched new automated ...
+
+[chunk_id=07e1f2d1a8e325e6ead1::c0000 | date=2023-02-21 | score=0.320]
+Belgium Microsoft Activision. Microsoft President Brad Smith addresses a media conference regarding Microsoft''s acquisition of Activision Blizzard and the future of gaming in Brussels Tuesday Feb. 21 2023. (AP Photo/)
+
+[chunk_id=94fe460e152858ffaa29::c0000 | date=2023-02-07 | score=0.311]
+2023 an opportunity to invest in ILS on attractive historic yields: Cambridge Associates. Our Artemis Live podcast can be subscribed to using the typical podcast services providers including Apple Google Spotify and more.","=== GRAPH ===
+X [Company] -DEVELOPED-> audio video calling [Technology] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=Social media platform X ... is launching an early version of video and audio calling
+Elon Musk [Person] -LEADS-> X [Company] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=chief technology officer and owner Elon Musk
+
+=== VECTOR ===
+[chunk_id=e23358a050b9d0082016::c0000 | date=2023-10-25 | score=0.517]
+Social media platform X rolls out audio video calling. Social media platform X formerly known as Twitter is launching an early version of video and audio calling for some users according to chief technology officer and owner Elon Musk as the billionaire pushes for X to become an '""everything app'"".
+
+[chunk_id=d5fdbe867bb46bf8a8e4::c0000 | date=2023-04-27 | score=0.422]
+Audio-recording Software Market 2023 by Sales Share Growth Opportunity with Top Players are Apple Adobe Digidesign Steinberg. The Audio-recording Software Market report 2023-2030 Industries are expected to develop at the greatest rate of CAGR
+
+[chunk_id=70988ad245a690fe32c0::c0000 | date=2023-07-12 | score=0.373]
+Computer scientists develop software that recreates new images from existing video footage. Researchers at Cornell University and Google Research may have discovered a solution to having to re-shoot video—with new software designed ... based rendering a computer graphics approach ...
+
+[chunk_id=5ffb6175ca0a9c7c8e9a::c0000 | date=2023-01-31 | score=0.349]
+Intercom rides OpenAI’s technology in new services. OpenAI most famous for its current ChatGPT technology has been the inspiration for Intercom’s latest wave of customer service products its co-founders say. Intercom has launched new automated ...",5.0,5.0,0.0
+G02,factoid,Who leads X?,Elon Musk leads X. (published 2023-10-25),"Based on the provided context, Elon Musk leads X (formerly Twitter), as he officially changed the logo to an ""X"" [chunk_id=b0f9b98ad1d92a2bf7f3::c0000].",Elon Musk leads X [chunk_id=e23358a050b9d0082016::c0000].,5,5,5,5,5,5,57.082,1.397,0.013,0.897,996,2329,"The candidate answer correctly identifies Elon Musk as the leader of X, which aligns perfectly with the reference answer. It accurately cites the provided context chunk that mentions Elon Musk changing Twitter's logo to 'X', demonstrating high faithfulness to the supplied text. The reasoning is direct and accurate, requiring no complex multi-hop inference beyond linking the entity 'X' to 'Elon Musk' based on the rebranding information.","The candidate answer correctly identifies Elon Musk as the leader of X, which aligns perfectly with the reference answer. The provided graph context explicitly contains the edge 'Elon Musk [Person] -LEADS-> X [Company]', directly supporting the claim. The answer is concise, accurate, and fully grounded in the supplied evidence without hallucination.",X[EXACT],3,23,0,False,bb431537ebe692a8fe97::c0000; 4b99eb137a357a42bde6::c0000; b0f9b98ad1d92a2bf7f3::c0000; 703ed3c330fada72ea46::c0000; d5fb4baccfcf540df0b0::c0000; 5aa6dd40a45b07b7d42d::c0000,"[chunk_id=bb431537ebe692a8fe97::c0000 | date=2023-06-09 | score=0.381]
+Meet the 4 astronauts of SpaceX's Ax-2 mission for Axiom Space. Axiom Space''s second crewed mission to space called Ax-2 will launch from Pad 39A at NASA''s Kennedy Space Center where SpaceX launches its astronaut missions for NASA. The four crew members ...
+
+[chunk_id=4b99eb137a357a42bde6::c0000 | date=2023-03-02 | score=0.356]
+Navy astronaut leads NASA’s next space mission. A SpaceX Falcon 9 rocket carrying the company's Dragon spacecraft is launched Thursday as part of NASA’s SpaceX Crew-6 mission to the International Space Station. (Joel Kowsky/NASA) The next set ...
+
+[chunk_id=b0f9b98ad1d92a2bf7f3::c0000 | date=2023-07-25 | score=0.317]
+Elon Musk's X rebrand reignites his goal to turn Twitter into an app like China's WeChat. Elon Musk officially changed Twitter''s famous bird logo to an '""X'"" in his bid to make the service into '""the everything app.'""\nzt3jze924b6xm4vqn6xekq6okx9kf92023-03-16 12:09:00https://time.com/6263623/baidu-ai-chatbot-disappoints/Demo of China's Answer to ChatGPT Disappoints Investorshttps://www.bing.com/th?id=OVFT.tkOqTu-fiK96dO0Q6OfQai&pid=NewsThe decision to do a video demonstration of China’s answer to ChatGPT raises questions over Ernie’s ability to match OpenAI’s chatbot\nnkrg41jyqjil24lqn6xekq6okx9kf92023-01-13 10:43:00https://www.fmiblog.com/2023/01/13/mea-cloud-integration-market-by-solution-integration-type-application-industry-country-forecast-2022-to-2032/""MEA Cloud Integration Market by Solution Integration Type Application Industry & Country – Forecast 2022 to 2032
+
+[chunk_id=703ed3c330fada72ea46::c0000 | date=2023-03-31 | score=0.314]
+Xiaomi Presents its Customer Success Solutions with Xapads at the Game Developers Conference. Xiaomi''s International Internet Business Department (IIB) the global strategic internet business arm of the Chinese smartphone company presented its customer success
+
+[chunk_id=d5fb4baccfcf540df0b0::c0000 | date=2023-02-16 | score=0.309]
+Airwallex builds out its leadership team with Stripe and Morgan Stanley execs. Global payments and financial platform Airwallex announced senior appointments to its leadership team as they focus on expansion into 2023.
+
+[chunk_id=5aa6dd40a45b07b7d42d::c0000 | date=2023-05-30 | score=0.307]
+SpaceX launches veteran NASA astronaut three rookies on private Axiom mission to ISS. SpaceX''s Axiom-2 mission took off from Kennedy Space Center Sunday evening carrying the second all-private crew of astronauts on a journey to the International Space Station. The mission that ...","=== GRAPH ===
+X [Company] -DEVELOPED-> audio video calling [Technology] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=Social media platform X ... is launching an early version of video and audio calling
+Elon Musk [Person] -LEADS-> X [Company] | date=2023-10-25 | chunk=e23358a050b9d0082016::c0000 | evidence=chief technology officer and owner Elon Musk
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-10-07 | chunk=b73a055f840c48fbb9b2::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=f91156691c26554e1fb0::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-10-07 | chunk=183e5698c9e39d3ce539::c0000 | evidence=Elon Musk''s SpaceX has a huge head start
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-07-27 | chunk=43168210f03cb0a63374::c0000 | evidence=SpaceX founded by Elon Musk
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-07-15 | chunk=e48cc45d32942970e27d::c0000 | evidence=Elon Musk's Starlink satellites
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=52cf68fa2f804a20e829::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=5f625b8a93a120c23ecb::c0000 | evidence=Elon Musk’s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-07-07 | chunk=f79de83542ec73932873::c0000 | evidence=Elon Musk's SpaceX
+Elon Musk [Person] -LEADS-> Twitter [Company] | date=2023-07-03 | chunk=5fc1e154ab293d8b01ab::c0000 | evidence=Elon Musk-led social media platform
+Elon Musk [Person] -LEADS-> Space X [Company] | date=2023-07-03 | chunk=c4dc12aae93b84da4ad2::c0000 | evidence=Elon Musk’s company Space X
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2023-03-27 | chunk=95d38b12e8b6acd4ba62::c0000 | evidence=Musk''s Starlink''s V2 sats experience de-orbit-worthy ''issues''
+Elon Musk [Person] -ACQUIRED-> Twitter [Company] | date=2023-03-17 | chunk=250939bab78cf84668d6::c0000 | evidence=Elon Musk-owned Twitter
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-02-22 | chunk=41ace907dc5bb79b9796::c0000 | evidence=Elon Musk''s SpaceX
+Elon Musk [Person] -INVESTED_IN-> Twitter [Company] | date=2023-02-05 | chunk=26caff5622d8bee2daa0::c0000 | evidence=Elon Musk continues to look for ways to make Twitter profitable and make back Elon Musk investment
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-02-03 | chunk=c29a5a7717a9f4201890::c0000 | evidence=the satellite internet unit of Elon Musk''s SpaceX
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-14 | chunk=4d478f2ba01026c42c45::c0000 | evidence=SpaceX a U.S. space company owned by Elon Musk
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-13 | chunk=1d0b8b437183a800054c::c0000 | evidence=Elon Musk-run SpaceX
+Elon Musk [Person] -FOUNDED-> SpaceX [Company] | date=2023-01-12 | chunk=b2e1a10cdad1061977d7::c0000 | evidence=Elon Musk''s Company Powered by SpaceX
+Elon Musk [Person] -FOUNDED-> Starlink [Company] | date=2023-01-11 | chunk=d0c75c83cc9804a8333c::c0000 | evidence=Elon Musk's satellite internet service provider Starlink
+Elon Musk [Person] -LEADS-> SpaceX [Company] | date=2023-01-09 | chunk=7ec0e2da5a7dc0cf7f30::c0000 | evidence=Elon Musk''s aerospace company SpaceX
+Elon Musk [Person] -LEADS-> Starlink [Technology] | date=2022-12-27 | chunk=502da577c03c28da9743::c0000 | evidence=Elon Musk’s satellite internet service Starlink
+
+=== VECTOR ===
+[chunk_id=bb431537ebe692a8fe97::c0000 | date=2023-06-09 | score=0.381]
+Meet the 4 astronauts of SpaceX's Ax-2 mission for Axiom Space. Axiom Space''s second crewed mission to space called Ax-2 will launch from Pad 39A at NASA''s Kennedy Space Center where SpaceX launches its astronaut missions for NASA. The four crew members ...
+
+[chunk_id=4b99eb137a357a42bde6::c0000 | date=2023-03-02 | score=0.356]
+Navy astronaut leads NASA’s next space mission. A SpaceX Falcon 9 rocket carrying the company's Dragon spacecraft is launched Thursday as part of NASA’s SpaceX Crew-6 mission to the International Space Station. (Joel Kowsky/NASA) The next set ...
+
+[chunk_id=b0f9b98ad1d92a2bf7f3::c0000 | date=2023-07-25 | score=0.317]
+Elon Musk's X rebrand reignites his goal to turn Twitter into an app like China's WeChat. Elon Musk officially changed Twitter''s famous bird logo to an '""X'"" in his bid to make the service into '""the everything app.'""\nzt3jze924b6xm4vqn6xekq6okx9kf92023-03-16 12:09:00https://time.com/6263623/baidu-ai-chatbot-disappoints/Demo of China's Answer to ChatGPT Disappoints Investorshttps://www.bing.com/th?id=OVFT.tkOqTu-fiK96dO0Q6OfQai&pid=NewsThe decision to do a video demonstration of China’s answer to ChatGPT raises questions over Ernie’s ability to match OpenAI’s chatbot\nnkrg41jyqjil24lqn6xekq6okx9kf92023-01-13 10:43:00https://www.fmiblog.com/2023/01/13/mea-cloud-integration-market-by-solution-integration-type-application-industry-country-forecast-2022-to-2032/""MEA Cloud Integration Market by Solution Integration Type Application Industry & Country – Forecast 2022 to 2032
+
+[chunk_id=703ed3c330fada72ea46::c0000 | date=2023-03-31 | score=0.314]
+Xiaomi Presents its Customer Success Solutions with Xapads at the Game Developers Conference. Xiaomi''s International Internet Business Department (IIB) the global strategic internet business arm of the Chinese smartphone company presented its customer success",5.0,5.0,0.0

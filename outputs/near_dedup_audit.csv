@@ -1,0 +1,6 @@
+dropped_article_id,dropped_title,kept_article_id,kept_title,jaccard,decision
+5bff5dc60b34e5aec2d0,satellite internet service in Bangladesh,43168210f03cb0a63374,SpaceX wants to launch satellite internet service in Bangladesh,0.9062,DROP_NEAR_DUP
+993387793de653258b7a,Meta Platforms (META) Bounced Back in Q1,11bb0e7759401322e9af,What Makes Alphabet (GOOG) an Attractive Long-term Bet?,0.625,DROP_NEAR_DUP
+f601c15aea5554879d8b,Microsoft’s Bid to Buy Activision Blizzard Temporarily Halted by Judge as Merger Deadline ,92b26ed4ba3c64f603bc,Microsoft’s Bid to Buy Activision Blizzard Temporarily Halted by Judge as Merger Deadline ,0.7812,DROP_NEAR_DUP
+fb866d3ae7d51a579fc5,Adobe unveils interactive digital dress in Los Angeles,19f795c29a8e95c0a889,Adobe unveils interactive digital dress in Los Angeles,0.8672,DROP_NEAR_DUP
+eb0c494e273ccd590f5d,Alibaba Group Holding Limited (BABA) is Attracting Investor Attention: Here is What You Sh,07346fc4ad98a0ed1cf6,Adobe Inc. (ADBE) is Attracting Investor Attention: Here is What You Should Know,0.6328,DROP_NEAR_DUP

@@ -65,10 +65,10 @@ NEO4J_PASSWORD=<your-password>
 NEO4J_DATABASE=neo4j
 
 GROQ_API_KEY=gsk_...
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 
 JUDGE_PROVIDER=openai               # 'openai' hoặc 'groq'
-JUDGE_MODEL=gpt-4o-mini             # hoặc llama-3.3-70b-versatile
+JUDGE_MODEL=gpt-4o-mini             # hoặc qwen/qwen3.6-27b nếu JUDGE_PROVIDER=groq
 OPENAI_API_KEY=sk-...
 
 HF_TOKEN=hf_...                     # Hugging Face User Access Token

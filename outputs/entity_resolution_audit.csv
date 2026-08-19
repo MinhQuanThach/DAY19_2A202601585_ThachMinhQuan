@@ -1,0 +1,13 @@
+type,left,right,similarity,decision,reason
+Company,Meta,Meta,1.0,MERGE_MANUAL,Manual alias map (ticker / biến thể pháp lý)
+Company,IBM,IBM,1.0,MERGE_MANUAL,Manual alias map (ticker / biến thể pháp lý)
+Company,Apple Inc,Apple,1.0,MERGE_MANUAL,Manual alias map (ticker / biến thể pháp lý)
+Company,AMD,AMD,1.0,MERGE_MANUAL,Manual alias map (ticker / biến thể pháp lý)
+Company,Amazon.com,Amazon,0.8475308418273926,REJECT_LOW_SIM,cosine=0.848 < threshold=0.9
+Company,Uber,Uber Direct,0.8028046488761902,REJECT_LOW_SIM,cosine=0.803 < threshold=0.9
+Technology,ChatGPT,ChatGPT API,0.8359296321868896,REJECT_LOW_SIM,cosine=0.836 < threshold=0.9
+Technology,AI technology,AI,0.8095405101776123,REJECT_LOW_SIM,cosine=0.810 < threshold=0.9
+Technology,Copilot,Copilot X,0.8731822967529297,REJECT_LOW_SIM,cosine=0.873 < threshold=0.9
+Technology,GPT-3.5 turbo,GPT3.5-turbo,0.9757512211799622,MERGE_VECTOR,LEXICAL_OK ratio=0.870>=0.72
+Technology,Azure,Microsoft Azure,0.9607285857200623,REJECT_GUARD,GUARD_TOKEN_SUBSET
+Technology,GPT 3,GPT-4,0.8502490520477295,REJECT_LOW_SIM,cosine=0.850 < threshold=0.9

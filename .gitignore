@@ -19,11 +19,18 @@ env/
 
 # Large Datasets and data dumps (do not commit 300MB data dumps)
 *.csv
-golden_dataset.csv
-!reports/*.csv
 *.jsonl
 *.parquet
 *.pq
+hackernoon_subset.csv
+lab19_submission.zip
+
+# ...NHƯNG các file CSV là DELIVERABLE thì phải commit.
+# Không có 3 dòng negation này, outputs/*.csv bị *.csv nuốt mất và
+# bài nộp lên GitHub sẽ thiếu 2 file benchmark (rubric trừ 5 điểm).
+!outputs/*.csv
+!reports/*.csv
+!data/golden_dataset.csv
 
 # OS files
 .DS_Store

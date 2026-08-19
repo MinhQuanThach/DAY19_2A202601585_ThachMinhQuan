@@ -1,0 +1,21 @@
+Loại câu hỏi,n,Metric,Flat RAG,GraphRAG,Delta,Nhận xét phân tích
+cross-doc,2,Comprehensiveness,1.0,3.5,2.5,GraphRAG hơn +2.50 điểm — kiểm tra rationale & provenance để xác nhận.
+cross-doc,2,Faithfulness,1.0,4.5,3.5,GraphRAG hơn +3.50 điểm — kiểm tra rationale & provenance để xác nhận.
+cross-doc,2,Multi-hop reasoning,1.0,4.0,3.0,GraphRAG hơn +3.00 điểm — kiểm tra rationale & provenance để xác nhận.
+cross-doc,2,Latency (s),57.301,3.822,-53.479,GraphRAG rẻ hơn 14.99x — subgraph cô đọng hơn top-k chunk.
+cross-doc,2,Token usage,1141.5,4411.5,3270.0,GraphRAG đắt hơn 3.86x — chi phí của traversal + graph context.
+factoid,2,Comprehensiveness,5.0,5.0,0.0,Hai phương pháp gần nhau (+0.00).
+factoid,2,Faithfulness,5.0,5.0,0.0,Hai phương pháp gần nhau (+0.00).
+factoid,2,Multi-hop reasoning,5.0,5.0,0.0,Hai phương pháp gần nhau (+0.00).
+factoid,2,Latency (s),28.722,1.167,-27.554,GraphRAG rẻ hơn 24.61x — subgraph cô đọng hơn top-k chunk.
+factoid,2,Token usage,863.5,1505.0,641.5,GraphRAG đắt hơn 1.74x — chi phí của traversal + graph context.
+multi-hop,1,Comprehensiveness,4.0,5.0,1.0,GraphRAG hơn +1.00 điểm — kiểm tra rationale & provenance để xác nhận.
+multi-hop,1,Faithfulness,5.0,5.0,0.0,Hai phương pháp gần nhau (+0.00).
+multi-hop,1,Multi-hop reasoning,4.0,5.0,1.0,GraphRAG hơn +1.00 điểm — kiểm tra rationale & provenance để xác nhận.
+multi-hop,1,Latency (s),45.989,3.678,-42.311,GraphRAG rẻ hơn 12.50x — subgraph cô đọng hơn top-k chunk.
+multi-hop,1,Token usage,1166.0,4138.0,2972.0,GraphRAG đắt hơn 3.55x — chi phí của traversal + graph context.
+ALL,5,Comprehensiveness,3.2,4.4,1.2,GraphRAG hơn +1.20 điểm — kiểm tra rationale & provenance để xác nhận.
+ALL,5,Faithfulness,3.4,4.8,1.4,GraphRAG hơn +1.40 điểm — kiểm tra rationale & provenance để xác nhận.
+ALL,5,Multi-hop reasoning,3.2,4.6,1.4,GraphRAG hơn +1.40 điểm — kiểm tra rationale & provenance để xác nhận.
+ALL,5,Latency (s),43.607,2.731,-40.875,GraphRAG rẻ hơn 15.96x — subgraph cô đọng hơn top-k chunk.
+ALL,5,Token usage,1035.2,3194.2,2159.0,GraphRAG đắt hơn 3.09x — chi phí của traversal + graph context.

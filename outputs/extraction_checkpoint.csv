@@ -1,0 +1,307 @@
+source_raw,source_type,relation,target_raw,target_type,source_chunk_id,published_date,evidence,confidence
+Krayden,Person,FOUNDED,Senser,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Before launching Senser in 2021 Krayden and Co-Founders Or Sadeh and Yuval Lev,1.0
+Or Sadeh,Person,FOUNDED,Senser,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Before launching Senser in 2021 Krayden and Co-Founders Or Sadeh and Yuval Lev,1.0
+Yuval Lev,Person,FOUNDED,Senser,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Before launching Senser in 2021 Krayden and Co-Founders Or Sadeh and Yuval Lev,1.0
+Krayden,Person,WORKED_AT,DriveNets,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Krayden and Co-Founders Or Sadeh and Yuval Lev honed their skills as tech leaders at DriveNets,1.0
+Or Sadeh,Person,WORKED_AT,DriveNets,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Krayden and Co-Founders Or Sadeh and Yuval Lev honed their skills as tech leaders at DriveNets,1.0
+Yuval Lev,Person,WORKED_AT,DriveNets,Company,125b329c27f612e3fa1d::c0000,2023-09-27,Krayden and Co-Founders Or Sadeh and Yuval Lev honed their skills as tech leaders at DriveNets,1.0
+Hywin,Company,USES,IBM Technology,Technology,4fbb6af96dd246761913::c0000,2023-04-08,Hywin Launches WealthTech Platform ... by Leveraging IBM Technology,1.0
+Hua Zhu,Person,LEADS,Hywin,Company,4fbb6af96dd246761913::c0000,2023-04-08,Hua Zhu Hywin’s Chief Technology,1.0
+Options Technology,Company,PARTNERED_WITH,Microsoft,Company,f73febf774301e802436::c0000,2023-06-08,Options Technology ... announced its achievement of Microsoft Solutions Partner designation,1.0
+Kearney,Company,PARTNERED_WITH,Amazon Web Services,Company,d4134100173aefa8594b::c0000,2023-04-11,A Kearney study conducted in collaboration with Amazon Web Services,1.0
+SplitMetrics,Company,PARTNERED_WITH,Apple,Company,8aee8925f2dc182d9423::c0000,2023-03-23,SplitMetrics an Apple Search Ads partner,1.0
+Samsung Electronics Co. Ltd.,Company,DEVELOPED,analog and logic semiconductor technologies,Technology,8e58296629f84469cd8d::c0000,2023-10-05,unveiled Samsung Electronics Co. Ltd. latest innovations in analog and logic semiconductor technologies,1.0
+Boxed Inc.,Company,USES,Google Cloud Marketplace,Technology,426f410b850963e21108::c0000,2023-01-10,Boxed Launches Spresso SaaS Solutions on Google Cloud Marketplace,1.0
+Amazon.com,Company,INVESTED_IN,Ohio,Company,3e0677727f437bb532a1::c0000,2023-06-26,Amazon.com''s cloud computing division would invest $7.8 billion through 2030 in Ohio,0.8
+GreenPages,Company,ACQUIRED,Zanaris,Company,4bd7afdba71243b0dbcd::c0000,2023-05-02,In February GreenPages acquired Toronto-based Zanaris an IT automation cloud and DevOps services firm,1.0
+Apple,Company,DEVELOPED,iPhone 15,Technology,8b2a4221bdca74cf28ac::c0000,2023-09-19,Apple announced the launch of the iPhone 15 on 12th September,1.0
+Synopsys,Company,PARTNERED_WITH,TSMC,Company,4b907bbb535472c4877e::c0000,2023-05-17,Synopsys TSMC team up to help clients accelerate 2nm chips designs,1.0
+IFI Techsolutions,Company,PARTNERED_WITH,Microsoft,Company,f2a20c3f98c3fb8dc3cc::c0000,2023-05-15,As a global Microsoft partner IFI Techsolutions continues to verify IFI Techsolutions excellence,1.0
+Microsoft,Company,PARTNERED_WITH,Viasat,Company,33f76af2d7f1afee070c::c0000,2022-12-14,Microsoft and Viasat announce new partnership to deliver internet access to underserved communities globally,1.0
+Dynamics TMS,Company,PARTNERED_WITH,Microsoft,Company,71e56fe1831bc0ef6fed::c0000,2022-12-14,Dynamics TMS are very pleased to enhance Dynamics TMS partnership and investment with Microsoft,1.0
+The Associated Press,Company,PARTNERED_WITH,OpenAI,Company,67f61078101e32548302::c0000,2023-07-13,The Associated Press and OpenAI have reached an agreement to share access to select news content,1.0
+Samsung,Company,DEVELOPED,Sensor OLED Display,Technology,cf095df30bfa3f72399f::c0000,2023-05-23,Samsung unveils OLED display with embedded heart rate sensor... Samsung’s Sensor OLED Display,1.0
+Huawei,Company,INVESTED_IN,cloud infrastructure,Technology,527bd7b919297d10fe32::c0000,2023-02-06,Huawei’s US$400 million investment in cloud infrastructure for Huawei services in the Kingdom,1.0
+Omantel,Company,PARTNERED_WITH,Huawei,Company,bbc85d5c88e845ee4991::c0000,2023-04-07,Omantel and Huawei host Oman Huawei ICT Academies conference... hosted in partnership with... Omantel,1.0
+Microsoft,Company,DEVELOPED,ChatGPT,Technology,13473db603d8790352b7::c0000,2023-02-05,Microsoft Google and Baidu are taking on ChatGPT... working on to make sure... don't get left behind.,0.6
+Google,Company,DEVELOPED,ChatGPT,Technology,13473db603d8790352b7::c0000,2023-02-05,Microsoft Google and Baidu are taking on ChatGPT... working on to make sure... don't get left behind.,0.6
+Baidu,Company,DEVELOPED,ChatGPT,Technology,13473db603d8790352b7::c0000,2023-02-05,Microsoft Google and Baidu are taking on ChatGPT... working on to make sure... don't get left behind.,0.6
+OpenAI,Company,DEVELOPED,AI technology,Technology,264d1b9d346656ddf765::c0000,2023-06-20,OpenAI plans app store for AI software... built on top of OpenAI own AI technology,0.9
+Google,Company,PARTNERED_WITH,MediaTek,Company,f479764e9819181a0679::c0000,2023-06-19,Google is reportedly cooperating with MediaTek to work on Google in-house developed Tensor Processing Unit,0.9
+Google,Company,DEVELOPED,Tensor Processing Unit,Technology,f479764e9819181a0679::c0000,2023-06-19,Google in-house developed Tensor Processing Unit (TPUs),0.95
+Form Bio,Company,USES,Google Cloud,Technology,35b8b8fc4ca0cc482176::c0000,2023-05-20,Form Bio... is built on Google Cloud’s advanced high performance computing data analytics and AI technology,0.95
+Form Bio,Company,USES,AI technology,Technology,35b8b8fc4ca0cc482176::c0000,2023-05-20,Form Bio... is built on Google Cloud’s advanced high performance computing data analytics and AI technology,0.9
+Serge Kassardjian,Person,FOUNDED,Staytuned Digital,Company,a0b304edebe265e00968::c0000,2023-04-06,Staytuned Digital has $34 million... with a goal of what co-founder Serge Kassardjian described,0.95
+Meta,Company,PARTNERED_WITH,Pelocal Fintech Pvt. Ltd.,Company,15fb2e71d9c1301a1bd8::c0000,2023-10-07,collaboration between Meta and its authorised partner Pelocal Fintech Pvt. Ltd.,0.95
+Microsoft,Company,DEVELOPED,Copilot,Technology,3a5ed6555cadb4149f58::c0000,2023-09-21,Microsoft’s unified Copilot is coming to Windows Edge,0.95
+Microsoft,Company,DEVELOPED,Windows,Technology,3a5ed6555cadb4149f58::c0000,2023-09-21,Microsoft Copilot for Windows launches September 26th,0.95
+Microsoft,Company,DEVELOPED,Edge,Technology,3a5ed6555cadb4149f58::c0000,2023-09-21,Microsoft’s unified Copilot is coming to Windows Edge,0.95
+Google,Company,PARTNERED_WITH,Apple,Company,dd608bf3ff0214721fa9::c0000,2023-09-21,Google has smothered competition by paying companies such as Apple,0.9
+Google,Company,PARTNERED_WITH,Verizon,Company,dd608bf3ff0214721fa9::c0000,2023-09-21,paying companies such as Apple and Verizon to lock in Google search,0.9
+KPMG,Company,INVESTED_IN,Microsoft,Company,35f9e232b3c44ebab014::c0000,2023-07-11,KPMG will spend $2 billion ... through an expanded partnership with Microsoft,0.95
+KPMG,Company,PARTNERED_WITH,Microsoft,Company,35f9e232b3c44ebab014::c0000,2023-07-11,expanded partnership with Microsoft,0.95
+Meta,Company,DEVELOPED,Facebook,Technology,250939bab78cf84668d6::c0000,2023-03-17,Meta Platforms Inc ... allow Facebook and Instagram users pay,0.9
+Meta,Company,DEVELOPED,Instagram,Technology,250939bab78cf84668d6::c0000,2023-03-17,Meta Platforms Inc ... allow Facebook and Instagram users pay,0.9
+Elon Musk,Person,ACQUIRED,Twitter,Company,250939bab78cf84668d6::c0000,2023-03-17,Elon Musk-owned Twitter,0.95
+Ivy Tech,Company,PARTNERED_WITH,Jobs for the Future,Company,af109609d8d9b6e3cfd1::c0000,2023-06-04,Ivy Tech Community College in partnership with national nonprofit Jobs for the Future,0.95
+Ivy Tech,Company,USES,Google Certificates,Technology,af109609d8d9b6e3cfd1::c0000,2023-06-04,will offer five Google Certificates,0.9
+Tencent Cloud,Company,DEVELOPED,Tencent Cloud Blockchain RPC,Technology,a52db94e340e50609055::c0000,2023-09-12,Tencent Cloud ... announced the launch of ... Tencent Cloud Blockchain RPC,0.95
+Tencent Cloud,Company,PARTNERED_WITH,Ankr,Company,a52db94e340e50609055::c0000,2023-09-12,Jointly developed with Ankr,0.95
+Ankr,Company,DEVELOPED,Tencent Cloud Blockchain RPC,Technology,a52db94e340e50609055::c0000,2023-09-12,Jointly developed with Ankr,0.95
+GM,Company,USES,Tesla,Company,d3648a33d2b7ef80b97b::c0000,2023-06-16,GM joins Ford in shifting its electric vehicles to work with ... Tesla''s ... chargers,0.9
+Ford,Company,USES,Tesla,Company,d3648a33d2b7ef80b97b::c0000,2023-06-16,GM joins Ford in shifting its electric vehicles to work with ... Tesla''s ... chargers,0.9
+Thales,Company,PARTNERED_WITH,L&T Technology Services,Company,275fc1333cf98e260eec::c0000,2023-02-23,L&T Technology Services and Qualcomm Selected by Thales,0.95
+Thales,Company,PARTNERED_WITH,Qualcomm,Company,275fc1333cf98e260eec::c0000,2023-02-23,L&T Technology Services and Qualcomm Selected by Thales,0.95
+IBM,Company,ACQUIRED,Red Hat,Company,f66b0d747efc2de3e42a::c0000,2023-04-15,mega-acquisition of Red Hat in 2019,0.95
+eCloudvalley,Company,PARTNERED_WITH,Amazon Web Services,Company,576089e2e1c2e6aa9973::c0000,2023-05-08,eCloudvalley Signs Strategic Collaboration Agreement with Amazon Web Services,1.0
+eCloudvalley,Company,USES,AWS,Technology,576089e2e1c2e6aa9973::c0000,2023-05-08,train more than 1000 employees on AWS,0.9
+Amazon,Company,DEVELOPED,artificial intelligence,Technology,c84c621aab489be45c42::c0000,2023-06-23,Amazon is building a program to help customers develop and deploy new kinds of artificial intelligence products,0.9
+Mercy Corps,Company,PARTNERED_WITH,Cisco,Company,da8a6d46961d707fdd79::c0000,2023-02-07,Mercy Corps and Cisco’s partnership,1.0
+H2O.ai,Company,DEVELOPED,H2O AI Cloud,Technology,5d162210c58b91f6a091::c0000,2023-04-13,H2O.ai today announced the launch of H2O AI Cloud,1.0
+H2O.ai,Company,PARTNERED_WITH,Snowflake,Company,5d162210c58b91f6a091::c0000,2023-04-13,H2O AI Cloud to the Snowflake Manufacturing Data Cloud,0.9
+Snowflake,Company,DEVELOPED,Manufacturing Data Cloud,Technology,5d162210c58b91f6a091::c0000,2023-04-13,Manufacturing Data Cloud launched by Snowflake,1.0
+Raymond Ma,Person,WORKED_AT,Alibaba Cloud,Company,7af33417ae940d9cfdb2::c0000,2023-04-27,Raymond Ma in his position as General Manager of Europe at Alibaba Cloud,1.0
+Raymond Ma,Person,LEADS,Alibaba Cloud,Company,7af33417ae940d9cfdb2::c0000,2023-04-27,Raymond Ma in his position as General Manager of Europe at Alibaba Cloud,0.9
+Microsoft,Company,DEVELOPED,Azure OpenAI Service,Technology,0f5fa36a88eaffbb32a0::c0000,2023-06-09,Microsoft unveiled its new Azure OpenAI Service,1.0
+Bill Chappell,Person,WORKED_AT,Microsoft,Company,0f5fa36a88eaffbb32a0::c0000,2023-06-09,Bill Chappell chief technology officer for Strategic Missions and Technologies,0.8
+Microsoft,Company,INVESTED_IN,Climate Innovation Fund,Technology,af275a0ced2573ae53ba::c0000,2023-03-01,Microsoft announced its $1 billion Climate Innovation Fund,0.9
+Amazon,Company,INVESTED_IN,Climate Pledge Fund,Technology,af275a0ced2573ae53ba::c0000,2023-03-01,Amazon unveiled its $2 billion Climate Pledge Fund,0.9
+Tim Cook,Person,LEADS,Apple,Company,f432d5c9be380e741116::c0000,2023-08-04,Tim Cook says its hefty $22.6 billion research spend,0.9
+Apple,Company,USES,generative AI,Technology,f432d5c9be380e741116::c0000,2023-08-04,research spend is down to generative AI,0.9
+Microsoft,Company,USES,ChatGPT,Technology,a6fd2f4f2b976b1b70ab::c0000,2023-02-02,premium messaging service that will be powered by Open AI’s ChatGPT,1.0
+Nicole Herskowitz,Person,WORKED_AT,Microsoft,Company,a6fd2f4f2b976b1b70ab::c0000,2023-02-02,Microsoft Teams vice president Nicole Herskowitz,1.0
+Nicole Herskowitz,Person,LEADS,Microsoft,Company,a6fd2f4f2b976b1b70ab::c0000,2023-02-02,Microsoft Teams vice president Nicole Herskowitz,0.9
+GM,Company,USES,Tesla,Company,9062935eafdc4aed744c::c0000,2023-06-16,GM joins Ford in shifting its electric vehicles to work with about 12000 of Tesla''s,0.9
+Ford,Company,USES,Tesla,Company,9062935eafdc4aed744c::c0000,2023-06-16,GM joins Ford in shifting its electric vehicles to work with about 12000 of Tesla''s,0.9
+Eric Schmidt,Person,WORKED_AT,Google,Company,39732a962e3247268337::c0000,2022-12-23,Eric Schmidt former CEO of Google,1.0
+Microsoft,Company,DEVELOPED,cloud data storage and processing,Technology,faa5aa220169e034c02b::c0000,2023-04-26,Microsoft has launched a top-notch hub for cloud data storage and processing,0.8
+Google,Company,DEVELOPED,Stadia,Technology,03775e21b559c6e80e03::c0000,2023-04-13,we also launched a consumer gaming service Stadia,0.9
+Phil Harrison,Person,LEADS,Stadia,Technology,03775e21b559c6e80e03::c0000,2023-04-13,Stadia vice president Phil Harrison said,0.9
+Amazon,Company,PARTNERED_WITH,Hugging Face,Company,0d2e52f75f6b4f306d66::c0000,2023-02-21,Amazon’s cloud unit partners with Hugging Face,1.0
+Google,Company,DEVELOPED,artificial intelligence,Technology,34a3ead45e1aca83fa4a::c0000,2023-07-21,Seven tech companies including Google... made commitments on developing... artificial intelligence,0.8
+Meta,Company,DEVELOPED,artificial intelligence,Technology,34a3ead45e1aca83fa4a::c0000,2023-07-21,Seven tech companies including... Meta... made commitments on developing... artificial intelligence,0.8
+OpenAI,Company,DEVELOPED,artificial intelligence,Technology,34a3ead45e1aca83fa4a::c0000,2023-07-21,Seven tech companies including... OpenAI... made commitments on developing... artificial intelligence,0.8
+Google,Company,DEVELOPED,data centers,Technology,582726f3cfa233b2d597::c0000,2023-05-08,Google announces plans to build two more data centers,0.9
+Facebook,Company,DEVELOPED,data centers,Technology,582726f3cfa233b2d597::c0000,2023-05-08,That region is already home to data centers for Facebook,0.9
+Amazon,Company,DEVELOPED,data centers,Technology,582726f3cfa233b2d597::c0000,2023-05-08,That region is already home to data centers for... Amazon,0.9
+UJET,Company,PARTNERED_WITH,Google Cloud,Technology,2512bf46ee71633efb09::c0000,2023-08-29,UJET announced a relationship with Google Cloud as a strategic technology partner,1.0
+Cadence Design Systems Inc.,Company,PARTNERED_WITH,TSMC,Company,5946714080867357e737::c0000,2023-04-25,Cadence Design Systems Inc. has collaborated with TSMC to optimize the Cadence Virtuoso platform,1.0
+Cadence Design Systems Inc.,Company,DEVELOPED,Virtuoso,Technology,5946714080867357e737::c0000,2023-04-25,optimize the Cadence Virtuoso platform,0.9
+TSMC,Company,DEVELOPED,N16,Technology,5946714080867357e737::c0000,2023-04-25,on TSMC's N16 process,0.9
+Tencent Games,Company,USES,Brompton Technology,Company,5719f1a360e208cb68d8::c0000,2023-10-18,Tencent Games’ CDD Virtual Studio is powered by Brompton Technology,1.0
+Qualcomm,Company,PARTNERED_WITH,MTM Technology,Company,1c487be041f2eb5a5363::c0000,2022-12-02,Qualcomm in Partnership With MTM Technology,1.0
+SAP,Company,PARTNERED_WITH,Microsoft,Company,80ba9d43bdb89567a46a::c0000,2023-09-15,SAP and Microsoft Collaborate on Joint Generative AI Offerings,1.0
+Kyndryl,Company,PARTNERED_WITH,AWS,Company,a9350bffc64c123dc1be::c0000,2023-06-10,new threat intelligence collaboration with AWS,1.0
+Dell Technologies Inc.,Company,DEVELOPED,Dell NativeEdge,Technology,574a610073dca3212ec1::c0000,2023-05-24,release of Dell NativeEdge,0.9
+Pexip,Company,USES,Microsoft Teams,Technology,22ce0907166ee1046e07::c0000,2023-06-07,Pexip first to offer certified Microsoft Teams interop,0.9
+Apple,Company,DEVELOPED,Apple Business Connect,Technology,a327a9ccb3ab7fcaf36d::c0000,2023-01-11,Apple Business Connect launches as free tool,0.9
+Broadcom,Company,DEVELOPED,Brocade 64G Fibre Channel,Technology,6d02395a6f0a5d34026b::c0000,2023-08-15,expands Broadcom’s Brocade 64G Fibre Channel portfolio,0.9
+Elon Musk,Person,LEADS,X,Company,e23358a050b9d0082016::c0000,2023-10-25,chief technology officer and owner Elon Musk,1.0
+X,Company,DEVELOPED,audio video calling,Technology,e23358a050b9d0082016::c0000,2023-10-25,Social media platform X ... is launching an early version of video and audio calling,1.0
+Intel,Company,DEVELOPED,Arc GPU Driver,Technology,ce496b595b2fbcd99947::c0000,2023-10-12,Intel Arc GPU Driver Pilots A Massive 159% Uplift,1.0
+Huawei,Company,DEVELOPED,Nova 8 SE,Technology,bc58278450c0ed48ca36::c0000,2023-05-09,Huawei Nova 8 SE refurbished version ... launched,1.0
+Nova 8 SE,Technology,USES,Kirin 710A,Technology,bc58278450c0ed48ca36::c0000,2023-05-09,Nova 8 SE ... retaining the Kirin 710A,1.0
+Google,Company,DEVELOPED,Pixel Fold,Technology,b97c4dbd4cfd1ee91a70::c0000,2023-05-05,Google's 1st foldable device Pixel Fold to launch,1.0
+Pixel Fold,Technology,USES,Bard,Technology,b97c4dbd4cfd1ee91a70::c0000,2023-05-05,phone ... may come with Bard tech,0.9
+OpenAI,Company,DEVELOPED,ChatGPT,Technology,eb4b5c00ae89793fab09::c0000,2023-06-15,launch of ChatGPT last fall,1.0
+OpenAI,Company,DEVELOPED,OpenAI API,Technology,eb4b5c00ae89793fab09::c0000,2023-06-15,OpenAI announces updates to API,1.0
+Elon Musk,Person,LEADS,Twitter,Company,5fc1e154ab293d8b01ab::c0000,2023-07-03,Elon Musk-led social media platform,1.0
+Instagram,Company,DEVELOPED,Threads,Technology,5fc1e154ab293d8b01ab::c0000,2023-07-03,Instagram Twitter Rival Threads Appears In Apple App Store,1.0
+OpenAI,Company,DEVELOPED,ChatGPT API,Technology,0b573f9fabec28613fe0::c0000,2023-03-02,OpenAI launches ChatGPT API for businesses,1.0
+ChatGPT API,Technology,USES,GPT-3.5 turbo,Technology,0b573f9fabec28613fe0::c0000,2023-03-02,ChatGPT API accesses a model known as ‘GPT-3.5 turbo’,1.0
+OpenAI,Company,DEVELOPED,GPT-3.5 Turbo,Technology,029fa07ada8ebbf60c23::c0000,2023-08-23,OpenAI Unveils Customizable GPT-3.5 Turbo,1.0
+OpenAI,Company,DEVELOPED,ChatGPT API,Technology,1fc1fe10cfc4b2eb8926::c0000,2023-03-07,OpenAI has introduced an API for ChatGPT,1.0
+ChatGPT API,Technology,USES,GPT3.5-turbo,Technology,1fc1fe10cfc4b2eb8926::c0000,2023-03-07,API for ChatGPT which is powered by OpenAI AI model GPT3.5-turbo,1.0
+Tesla,Company,DEVELOPED,Model S,Technology,f2e89fd19cd1708a36b9::c0000,2023-10-03,The Tesla Model S was Tesla first mass-market offering,1.0
+Elon Musk,Person,INVESTED_IN,Twitter,Company,26caff5622d8bee2daa0::c0000,2023-02-05,Elon Musk continues to look for ways to make Twitter profitable and make back Elon Musk investment,1.0
+Estelle Macdonald,Person,LEADS,Hull Collaborative,Company,28c1aa969c8ced1e5fc2::c0000,2023-07-10,Hull Collaborative boss Estelle Macdonald,1.0
+1Kosmos BlockID,Technology,USES,AWS,Technology,4acca43747ccf90852e7::c0000,2023-06-06,software that runs on AWS,1.0
+Saviynt,Company,PARTNERED_WITH,Microsoft,Company,3f465fb9353533a2bd0a::c0000,2023-04-25,Available solutions developed in partnership with Microsoft,1.0
+Saviynt,Company,PARTNERED_WITH,Ping Identity,Company,3f465fb9353533a2bd0a::c0000,2023-04-25,Available solutions developed in partnership with ... Ping Identity,1.0
+Saviynt,Company,PARTNERED_WITH,Zscaler,Company,3f465fb9353533a2bd0a::c0000,2023-04-25,Available solutions developed in partnership with ... Zscaler,1.0
+Saviynt,Company,PARTNERED_WITH,1Kosmos,Company,3f465fb9353533a2bd0a::c0000,2023-04-25,Available solutions developed in partnership with ... 1Kosmos,1.0
+Snowflake,Company,INVESTED_IN,Cybersyn,Company,a1e56be5e4d4eb820d16::c0000,2023-04-13,Snowflake leads $62.9M investment in Cybersyn,1.0
+Elon Musk,Person,FOUNDED,Starlink,Company,d0c75c83cc9804a8333c::c0000,2023-01-11,Elon Musk's satellite internet service provider Starlink,0.95
+Elon Musk,Person,FOUNDED,SpaceX,Company,b2e1a10cdad1061977d7::c0000,2023-01-12,Elon Musk''s Company Powered by SpaceX,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,b2e1a10cdad1061977d7::c0000,2023-01-12,Elon Musk''s Company Powered by SpaceX... Try any Starlink service,0.9
+Microsoft,Company,DEVELOPED,Microsoft Entra,Technology,f0d61ee52527b38ad28d::c0000,2023-07-11,Microsoft Entra expands into Security Service Edge,0.95
+Microsoft,Company,DEVELOPED,Azure AD,Technology,f0d61ee52527b38ad28d::c0000,2023-07-11,Azure AD becomes Microsoft Entra ID,0.95
+Microsoft,Company,PARTNERED_WITH,Edgile,Company,f0d61ee52527b38ad28d::c0000,2023-07-11,integrator partners—including Edgile,0.9
+Microsoft,Company,PARTNERED_WITH,Wipro,Company,f0d61ee52527b38ad28d::c0000,2023-07-11,Edgile a Wipro company,0.9
+Microsoft,Company,PARTNERED_WITH,EY,Company,f0d61ee52527b38ad28d::c0000,2023-07-11,integrator partners—including... EY,0.9
+Microsoft,Company,PARTNERED_WITH,KPMG,Company,f0d61ee52527b38ad28d::c0000,2023-07-11,integrator partners—including... KPMG,0.9
+Microsoft,Company,PARTNERED_WITH,PwC,Company,f0d61ee52527b38ad28d::c0000,2023-07-11,integrator partners—including... PwC,0.9
+Amazon,Company,DEVELOPED,Amazon Clinic,Technology,e4c76900e52247308b7d::c0000,2023-08-01,Amazon expands Amazon Clinic remote health service,0.95
+Amazon,Company,DEVELOPED,Amazon Pharmacy,Technology,e4c76900e52247308b7d::c0000,2023-08-01,Amazon healthcare services including Amazon Pharmacy,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,43168210f03cb0a63374::c0000,2023-07-27,satellite internet service called Starlink,0.95
+Elon Musk,Person,FOUNDED,SpaceX,Company,43168210f03cb0a63374::c0000,2023-07-27,SpaceX founded by Elon Musk,0.95
+Apple,Company,USES,Qualcomm,Company,ffbab93045863bdcae4e::c0000,2023-01-10,reduce its reliance on the chipmaker Qualcomm Inc.,0.9
+Apple,Company,DEVELOPED,modem chip,Technology,ffbab93045863bdcae4e::c0000,2023-01-10,Apple Inc. has been working on developing its own modem chip,0.95
+Amazon,Company,DEVELOPED,test satellites,Technology,b73a055f840c48fbb9b2::c0000,2023-10-07,Amazon launched the first test satellites,0.95
+Elon Musk,Person,FOUNDED,SpaceX,Company,b73a055f840c48fbb9b2::c0000,2023-10-07,Elon Musk’s SpaceX,0.95
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,b73a055f840c48fbb9b2::c0000,2023-10-07,Jeff Bezos who has his own rocket company,0.9
+Amazon,Company,DEVELOPED,test satellites,Technology,31b65821b712cc0ca3b2::c0000,2023-10-07,Amazon launched the first test satellites,0.95
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,31b65821b712cc0ca3b2::c0000,2023-10-07,who has his own rocket company Blue Origin,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,31b65821b712cc0ca3b2::c0000,2023-10-07,SpaceX’s broadband network... Starlink satellites,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,bb3959bf4974afb4ab9c::c0000,2023-10-11,SpaceX’s Starlink,0.95
+Eutelsat,Company,DEVELOPED,Konnect,Technology,bb3959bf4974afb4ab9c::c0000,2023-10-11,Eutelsat’s Konnect,0.95
+Eutelsat,Company,PARTNERED_WITH,Coollink,Company,bb3959bf4974afb4ab9c::c0000,2023-10-11,Eutelsat’s Konnect in partnership with Internet service provider Coollink,0.95
+Amazon,Company,DEVELOPED,test satellites,Technology,1204d4e596b20ee8a4cf::c0000,2023-10-08,Amazon launched the first test satellites,0.95
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,1204d4e596b20ee8a4cf::c0000,2023-10-08,who has his own rocket company Blue Origin,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,1204d4e596b20ee8a4cf::c0000,2023-10-08,SpaceX flew its first test Starlink satellites,0.95
+Elon Musk,Person,LEADS,SpaceX,Company,52cf68fa2f804a20e829::c0000,2023-07-07,Elon Musk’s SpaceX,0.95
+SpaceX,Company,USES,low-orbit satellites,Technology,52cf68fa2f804a20e829::c0000,2023-07-07,operate as a service provider using low-orbit satellites,0.9
+Elon Musk,Person,LEADS,SpaceX,Company,5f625b8a93a120c23ecb::c0000,2023-07-07,Elon Musk’s SpaceX,0.95
+SpaceX,Company,USES,low-orbit satellites,Technology,5f625b8a93a120c23ecb::c0000,2023-07-07,operate as an internet service provider using low-orbit satellites,0.9
+Google,Company,DEVELOPED,Google Fiber,Technology,78c197df7c1656552623::c0000,2023-05-18,Google Fiber puts out a call... Google is looking to partner,0.85
+Elon Musk,Person,LEADS,SpaceX,Company,f79de83542ec73932873::c0000,2023-07-07,Elon Musk's SpaceX,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,f79de83542ec73932873::c0000,2023-07-07,Starlink the satellite communications service operated by SpaceX,0.95
+NeutraDC,Company,PARTNERED_WITH,Cisco,Company,b283aca3f68fcfd39cd6::c0000,2022-12-20,NeutraDC... has partnered with networking major Cisco,0.95
+NeutraDC,Company,PARTNERED_WITH,Telkom Indonesia,Company,b283aca3f68fcfd39cd6::c0000,2022-12-20,NeutraDC... a subsidiary of Telkom Indonesia,0.8
+Elon Musk,Person,LEADS,Starlink,Technology,e48cc45d32942970e27d::c0000,2023-07-15,Elon Musk's Starlink satellites,0.9
+SpaceX,Company,DEVELOPED,Starlink,Technology,c794170cbb412a080807::c0000,2022-11-30,SpaceX last week announced the launch of Starlink,0.95
+Elon Musk,Person,LEADS,SpaceX,Company,7ec0e2da5a7dc0cf7f30::c0000,2023-01-09,Elon Musk''s aerospace company SpaceX,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,7ec0e2da5a7dc0cf7f30::c0000,2023-01-09,Starlink operated by... SpaceX,0.95
+Starlink,Technology,PARTNERED_WITH,Elcome International,Company,7ec0e2da5a7dc0cf7f30::c0000,2023-01-09,Starlink... has linked up with... Elcome International,0.95
+Amazon,Company,DEVELOPED,test satellites,Technology,290f7d442d055b3669c0::c0000,2023-10-11,Amazon launched the first test satellites,0.9
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,290f7d442d055b3669c0::c0000,2023-10-11,who has his own rocket company Blue Origin,0.85
+SpaceX,Company,DEVELOPED,Starlink,Technology,290f7d442d055b3669c0::c0000,2023-10-11,SpaceX flew its first test Starlink satellites,0.95
+Elon Musk,Person,LEADS,SpaceX,Company,41ace907dc5bb79b9796::c0000,2023-02-22,Elon Musk''s SpaceX,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,41ace907dc5bb79b9796::c0000,2023-02-22,Starlink the satellite internet service owned by... SpaceX,0.95
+Data Lake,Company,PARTNERED_WITH,Starlink,Technology,41ace907dc5bb79b9796::c0000,2023-02-22,Data Lake... has partnered with Starlink,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,212ca3357c1aee243caf::c0000,2023-10-13,SpaceX's Starlink set to launch satellite phone service in 2024.,1.0
+SpaceX,Company,DEVELOPED,Starlink,Technology,cd1306e00aa6898dcb66::c0000,2023-03-01,Starlink: SpaceX’s new internet service could be a gamechanger in Africa.,1.0
+Elon Musk,Person,LEADS,SpaceX,Company,c29a5a7717a9f4201890::c0000,2023-02-03,the satellite internet unit of Elon Musk''s SpaceX,1.0
+SpaceX,Company,DEVELOPED,Starlink,Technology,c29a5a7717a9f4201890::c0000,2023-02-03,Musk's Starlink internet service... unit of Elon Musk''s SpaceX,1.0
+Elon Musk,Person,LEADS,SpaceX,Company,f91156691c26554e1fb0::c0000,2023-10-07,Elon Musk''s SpaceX has a huge head start,1.0
+Jeff Bezos,Person,LEADS,Amazon,Company,f91156691c26554e1fb0::c0000,2023-10-07,Amazon and its founder Jeff Bezos,1.0
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,8105975e9deff60fda47::c0000,2023-10-07,who has his own rocket company Blue Origin,1.0
+Google,Company,FOUNDED,Google,Company,d3574b0f5ee5ac2d5984::c0000,2023-09-06,Google the Silicon Valley company founded in 1998,0.5
+Jeff Bezos,Person,FOUNDED,Blue Origin,Company,b3c102a199c9f5b3fac6::c0000,2023-10-08,who has his own rocket company Blue Origin,1.0
+Elon Musk,Person,LEADS,SpaceX,Company,183e5698c9e39d3ce539::c0000,2023-10-07,Elon Musk''s SpaceX has a huge head start,1.0
+Jeff Bezos,Person,LEADS,Amazon,Company,183e5698c9e39d3ce539::c0000,2023-10-07,Amazon and its founder Jeff Bezos,1.0
+SpaceX,Company,DEVELOPED,Starlink,Technology,85d75ad94ec8117b4316::c0000,2023-05-09,Starlink is a satellite-based internet service... as SpaceX launches more rockets,1.0
+Elon Musk,Person,LEADS,Starlink,Technology,95d38b12e8b6acd4ba62::c0000,2023-03-27,Musk''s Starlink''s V2 sats experience de-orbit-worthy ''issues'',1.0
+Meta,Company,USES,iOS,Technology,1f1dbd1e8802e39cdaf4::c0000,2023-02-19,who subscribed through Apple Inc’s iOS system,0.9
+Apple Inc,Company,DEVELOPED,buy now pay later,Technology,4b586a84a6c3418aa9c1::c0000,2023-03-29,Apple Inc ... launched Apple Inc 'buy now pay later' (BNPL) service,0.95
+KRAFTON Inc.,Company,INVESTED_IN,Trioscope,Company,136677992443a513335d::c0000,2022-12-13,Trioscope ... closed the first tranche of bridge financing led by KRAFTON,0.95
+Intercom,Company,USES,OpenAI,Technology,5ffb6175ca0a9c7c8e9a::c0000,2023-01-31,Intercom rides OpenAI’s technology in new services,0.9
+KULR Technology Group,Company,USES,Azure,Technology,92d3da7519bc9eb1603d::c0000,2022-12-13,CellCheck Battery Monitoring System is now running on the Azure cloud computing service by Microsoft,0.95
+Ampere,Company,USES,5-nanometer production technology,Technology,21ef5c1b3453bc13fa24::c0000,2023-05-18,makes Ampere chips on its 5-nanometer production technology,0.85
+Taiwan Semiconductor Manufacturing Co.,Company,DEVELOPED,5-nanometer production technology,Technology,21ef5c1b3453bc13fa24::c0000,2023-05-18,contract manufacturer Taiwan Semiconductor Manufacturing Co. ... on its 5-nanometer production technology,0.9
+L&T Technology Services,Company,PARTNERED_WITH,Qualcomm,Company,5435e1a5d1fb7b9815f0::c0000,2023-02-23,collaboration with Qualcomm,0.9
+L&T Technology Services,Company,PARTNERED_WITH,Thales,Company,5435e1a5d1fb7b9815f0::c0000,2023-02-23,selected by Thales to offer 5G driven next-gen connectivity solutions,0.9
+Jobs,Person,FOUNDED,Apple,Company,cc765aef546c7eba87d2::c0000,2023-08-25,original handwritten advertisement for the Apple-1 Computer written by Jobs,0.8
+Wozniak,Person,FOUNDED,Apple,Company,cc765aef546c7eba87d2::c0000,2023-08-25,Apple check No. 2 signed by Jobs and Wozniak,0.8
+AMD,Company,ACQUIRED,AI software startup,Company,c30c4c52c24b65938150::c0000,2023-10-10,AMD to acquire AI software startup,0.95
+Microsoft,Company,PARTNERED_WITH,Starlink,Technology,7b9ddd9295198a5c6863::c0000,2022-12-16,Microsoft has announced Microsoft partnership with Starlink-like satellite internet service providing company named Starlink.,0.95
+Elon Musk,Person,LEADS,SpaceX,Company,4d478f2ba01026c42c45::c0000,2023-01-14,SpaceX a U.S. space company owned by Elon Musk,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,4d478f2ba01026c42c45::c0000,2023-01-14,roll out SpaceX network of satellite internet service Starlink,0.95
+Telstra,Company,PARTNERED_WITH,Starlink,Technology,c4dc12aae93b84da4ad2::c0000,2023-07-03,Telstra signs Starlink deal to boost internet service,0.95
+Space X,Company,DEVELOPED,Starlink,Technology,c4dc12aae93b84da4ad2::c0000,2023-07-03,Starlink is a satellite internet service offered by Elon Musk’s company Space X,0.95
+Elon Musk,Person,LEADS,Space X,Company,c4dc12aae93b84da4ad2::c0000,2023-07-03,Elon Musk’s company Space X,0.95
+Elon Musk,Person,LEADS,Starlink,Technology,502da577c03c28da9743::c0000,2022-12-27,Elon Musk’s satellite internet service Starlink,0.9
+HCLTech,Company,PARTNERED_WITH,Microsoft,Company,b47b8877c942060c9502::c0000,2023-06-15,HCLTech and Microsoft Expand Collaboration,0.95
+Microsoft,Company,DEVELOPED,Azure OpenAI Service,Technology,b47b8877c942060c9502::c0000,2023-06-15,Microsoft's Azure OpenAI Service,0.95
+Elon Musk,Person,LEADS,SpaceX,Company,1d0b8b437183a800054c::c0000,2023-01-13,Elon Musk-run SpaceX,0.95
+SpaceX,Company,DEVELOPED,Starlink,Technology,1d0b8b437183a800054c::c0000,2023-01-13,roll out SpaceX network of satellite internet service Starlink,0.95
+Nvidia,Company,DEVELOPED,A800,Technology,a62fd14da367bcd46cf5::c0000,2023-08-20,Nvidia offers the A800 processor,0.95
+Apogee,Company,ACQUIRED,Cumulus Technology Services Inc.,Company,880f679967abd4168aa0::c0000,2022-12-12,Apogee acquisition of Cumulus Technology Services Inc.,0.95
+Meta Platforms Inc.,Company,DEVELOPED,Meta Verified,Technology,88ab3073d08c3caa707c::c0000,2023-02-20,Meta Platforms Inc. is launching a subscription service called Meta Verified,0.95
+OpenAI,Company,DEVELOPED,ChatGPT,Technology,224c0f1055b396927221::c0000,2023-01-20,ChatGPT a large language model (LLM) developed by OpenAI,1.0
+ChatGPT,Technology,USES,GPT 3,Technology,224c0f1055b396927221::c0000,2023-01-20,ChatGPT ... uses GPT 3 LLM,1.0
+Tracey Pretorius,Person,WORKED_AT,Google,Company,b240bc372dfd642f1c49::c0000,2022-12-15,Tracey Pretorius ... was a partner at Google,1.0
+Deborah Leff,Person,WORKED_AT,IBM,Company,30fac5f165f506ea7cd6::c0000,2023-07-12,Former Global Head of Business Analytics Sales at IBM,1.0
+SQream,Company,USES,GPU,Technology,30fac5f165f506ea7cd6::c0000,2023-07-12,SQream the scalable GPU accelerated data analytics software platform,0.9
+Google Meet,Technology,USES,Android,Technology,086f62b3616add1b4db7::c0000,2023-02-20,use your Android or iOS device’s gyroscope,0.9
+Google Meet,Technology,USES,iOS,Technology,086f62b3616add1b4db7::c0000,2023-02-20,use your Android or iOS device’s gyroscope,0.9
+Microsoft,Company,DEVELOPED,Microsoft software,Technology,cd141f5cffd6f247c255::c0000,2023-04-07,Microsoft ... failed to oversee who was buying Microsoft software,0.8
+Curry,Person,WORKED_AT,Uber,Company,2d02e327411bf70664a1::c0000,2023-09-28,disclosed the Uber internal systems breach ... I work as a security engineer,0.9
+Cisco,Company,DEVELOPED,Webex,Technology,f04c84b5fe6ae66850e4::c0000,2023-04-16,Building on its Webex product line Cisco plans to deliver,1.0
+Cisco,Company,DEVELOPED,Secure Network Analytics,Technology,75645363e22a5313777f::c0000,2023-07-19,Cisco unveiled a new version of its Secure Network Analytics (SNA) software,1.0
+IBM,Company,ACQUIRED,Apptio,Company,e81828547ff949a24a8e::c0000,2023-06-26,IBM ... announced it will acquire the software company Apptio,1.0
+Kissner,Person,WORKED_AT,Twitter,Company,ad44ef260ad3f84cb7d2::c0000,2023-05-15,Ex-Twitter Cyber Chief... Mx. Kissner,0.95
+Kissner,Person,WORKED_AT,Lacework,Company,ad44ef260ad3f84cb7d2::c0000,2023-05-15,Ex-Twitter Cyber Chief Joins Cloud-Security Company Lacework... Mx. Kissner,0.95
+Joey Lauffer,Person,WORKED_AT,Google,Company,b581e5c074d952ecc4aa::c0000,2023-10-04,Joey Lauffer formerly a director at technology company Google,0.95
+Joey Lauffer,Person,LEADS,BTI360,Company,b581e5c074d952ecc4aa::c0000,2023-10-04,BTI360 Names Former Google Director Joey Lauffer Chief Growth Officer,0.95
+Intel,Company,DEVELOPED,AI PC,Technology,0d219bafd44da45e2470::c0000,2023-09-24,Intel pitches the ‘AI PC’... The capability which Intel showed off,0.9
+Gelsinger,Person,LEADS,Intel,Company,9c0a561ef8edf1c1a917::c0000,2023-09-19,Gelsinger said. Intel shares were down... after Intel presentation.,0.85
+Joshua Silver,Person,FOUNDED,Rainforest,Company,1a31883192493b6bd833::c0000,2023-10-08,fintech Rainforest... CEO and co-founder Joshua Silver,0.95
+Adobe,Company,DEVELOPED,Adobe Photoshop,Technology,07b11f3305d87962b831::c0000,2023-10-12,Adobe... is known for Adobe innovative programs such as Adobe Photoshop,0.95
+Everynet,Company,PARTNERED_WITH,Amazon Web Services,Company,7f9c69783608b7776f06::c0000,2023-04-25,Everynet has partnered with the renowned Amazon Web Services (AWS),0.95
+IoT M2M Council,Company,PARTNERED_WITH,Consumer Technology Association,Company,42921aa66ae603026e9c::c0000,2022-12-20,Organized by the IoT M2M Council (IMC) in partnership with the Consumer Technology Association (CTA),1.0
+Romil Bahl,Person,LEADS,IoT M2M Council,Company,42921aa66ae603026e9c::c0000,2022-12-20,says IMC Chairman Romil Bahl,1.0
+Romil Bahl,Person,LEADS,KORE,Company,42921aa66ae603026e9c::c0000,2022-12-20,Romil Bahl who is also CEO and President at IoT solutions provider KORE,1.0
+1NCE,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include 1NCE... that provide IoT solutions,0.9
+A1 Digital,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... A1 Digital... that provide IoT solutions,0.9
+Aeris,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Aeris... that provide IoT solutions,0.9
+Airgain,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Airgain... that provide IoT solutions,0.9
+Astrocast,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Astrocast... that provide IoT solutions,0.9
+BICS,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... BICS... that provide IoT solutions,0.9
+Blues Wireless,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Blues Wireless... that provide IoT solutions,0.9
+Digi International,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Digi International... that provide IoT solutions,0.9
+eSAT Global,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... eSAT Global... that provide IoT solutions,0.9
+Fibocom,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Fibocom... that provide IoT solutions,0.9
+floLIVE,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... floLIVE... that provide IoT solutions,0.9
+Ground Control,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Ground Control... that provide IoT solutions,0.9
+Gurtam,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Gurtam... that provide IoT solutions,0.9
+GXC,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... GXC... that provide IoT solutions,0.9
+iBasis,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... iBasis... that provide IoT solutions,0.9
+Ignion,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Ignion... that provide IoT solutions,0.9
+IoT Launch,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... IoT Launch... that provide IoT solutions,0.9
+Keyfactor,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Keyfactor... that provide IoT solutions,0.9
+KORE,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... KORE... that provide IoT solutions,0.9
+KYOCERA AVX,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... KYOCERA AVX... that provide IoT solutions,0.9
+Losant,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Losant... that provide IoT solutions,0.9
+Microsoft Azure,Technology,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Microsoft Azure... that provide IoT solutions,0.9
+MultiTech,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... MultiTech... that provide IoT solutions,0.9
+Pelion,Technology,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Pelion... that provide IoT solutions,0.9
+Pod Group,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Pod Group... that provide IoT solutions,0.9
+Quectel,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Quectel... that provide IoT solutions,0.9
+Sateliot,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Sateliot... that provide IoT solutions,0.9
+Somos,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Somos... that provide IoT solutions,0.9
+Tata Communications,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Tata Communications... that provide IoT solutions,0.9
+Telit,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Telit... that provide IoT solutions,0.9
+Utimaco,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Utimaco... that provide IoT solutions,0.9
+Vodafone,Company,USES,IoT,Technology,42921aa66ae603026e9c::c0001,2022-12-20,Board companies include... Vodafone... that provide IoT solutions,0.9
+Microsoft,Company,DEVELOPED,Athena,Technology,25a75f8192c2a5a5603e::c0000,2023-04-18,Microsoft developing its own artificial intelligence chip code-named 'Athena',1.0
+Microsoft,Company,INVESTED_IN,OpenAI,Company,ae77d4dcd7d66b6ebfb4::c0000,2023-09-10,Microsoft made its first $1 billion investment in San Francisco-based OpenAI in 2019,1.0
+OpenAI,Company,DEVELOPED,ChatGPT,Technology,ae77d4dcd7d66b6ebfb4::c0000,2023-09-10,startup introduced ChatGPT,1.0
+Microsoft,Company,USES,AI models,Technology,ae77d4dcd7d66b6ebfb4::c0000,2023-09-10,Microsoft would supply computing power needed to train the AI models,0.9
+IBM,Company,PARTNERED_WITH,Texas A&M AgriLife,Company,888063537b38ee4f282b::c0000,2023-05-12,IBM and Texas A&M AgriLife are collaborating through the IBM Sustainability Accelerator,1.0
+IBM,Company,DEVELOPED,Liquid Prep,Technology,888063537b38ee4f282b::c0000,2023-05-12,deploy and scale Liquid Prep a tech solution,0.9
+SECO,Company,PARTNERED_WITH,Qualcomm,Company,632b0c3e75ab3e68ed2a::c0000,2023-09-22,SECO selected by Qualcomm as an IIoT design center partner,1.0
+MAXHUB,Company,DEVELOPED,Interactive Flat Panels,Technology,4b86c8fa695ac2bb2601::c0000,2023-01-26,MAXHUB will launch MAXHUB brand-new industry leading Interactive Flat Panels,1.0
+MAXHUB,Company,DEVELOPED,PTZ Camera,Technology,4b86c8fa695ac2bb2601::c0000,2023-01-26,launch... popular Pan-Tilt-Zoom (PTZ) products,1.0
+Aragio Solutions,Company,PARTNERED_WITH,Intel Foundry Services,Company,5d8209407c99540d949f::c0000,2023-01-27,Aragio Solutions to Join Intel Foundry Services (IFS) Accelerator IP Alliance,1.0
+First Logic,Company,PARTNERED_WITH,DataStax,Company,f6cecb5da142c480cdc4::c0000,2023-06-14,First Logic... has officially unveiled its strategic alliances with... DataStax,1.0
+First Logic,Company,PARTNERED_WITH,Dedoco,Company,f6cecb5da142c480cdc4::c0000,2023-06-14,First Logic... has officially unveiled its strategic alliances with... Dedoco,1.0
+GitHub,Company,DEVELOPED,Copilot X,Technology,89881873a158352700f1::c0000,2023-03-22,GitHub is introducing Copilot X,1.0
+Copilot X,Technology,USES,GPT-4,Technology,89881873a158352700f1::c0000,2023-03-22,adopting the latest OpenAI GPT-4 model,1.0
+Soundhound,Company,PARTNERED_WITH,Olo,Company,1e6eaab64a18a0443f70::c0000,2023-10-20,Soundhound partnering with Olo,1.0
+PopMenu,Company,PARTNERED_WITH,OpenTable,Company,1e6eaab64a18a0443f70::c0000,2023-10-20,PopMenu integrating with OpenTable,1.0
+Uber Direct,Company,PARTNERED_WITH,Deliverect,Company,1e6eaab64a18a0443f70::c0000,2023-10-20,Uber Direct partnering with Deliverect,1.0
+Reltime,Company,PARTNERED_WITH,Microsoft,Company,cf36f3d3649ac05fdd56::c0000,2023-04-04,Reltime scales Reltime Web3 Financial Services Ecosystem Globally with Microsoft,1.0
+GM,Company,DEVELOPED,Ultra Cruise,Technology,c49faf868c0b5e04e90d::c0000,2023-03-07,GM and partners release tech details on next-generation Ultra Cruise advanced driver assistance system,0.95
+Ultra Cruise,Technology,USES,Qualcomm,Company,c49faf868c0b5e04e90d::c0000,2023-03-07,thanks to help from suppliers like Qualcomm,0.9
+Sony,Company,PARTNERED_WITH,Oppo,Company,f76f0060783ca82b81c3::c0000,2023-09-12,Oppo and Sony’s Lytia imaging sensor brand have announced a new strategic partnership,0.95
+Sony,Company,DEVELOPED,Lytia,Technology,f76f0060783ca82b81c3::c0000,2023-09-12,Sony and Oppo partnering on new dual-layer stacked Lytia image sensor,0.9
+Tesla,Company,DEVELOPED,4D mm-wave radar,Technology,c60ba20fdf1846196766::c0000,2023-03-27,Tesla’s self-driving sensor solutions... (3) 4D mm-wave radar plus vision,0.9
+Samsung,Company,DEVELOPED,Skin Temperature API,Technology,a0849ba53e22551491fd::c0000,2023-07-28,Samsung's 'Skin Temperature API' gives the Galaxy Watch more potential,0.95
+Galaxy Watch 6,Technology,USES,Skin Temperature API,Technology,a0849ba53e22551491fd::c0000,2023-07-28,API apparently contains all of the information about the temperature sensors present on the new Galaxy Watch 6,0.9
+Character.AI,Company,FOUNDED,ex-Google employees,Person,b8dbf3e22497d322ffdc::c0000,2023-03-23,Founded by ex-Google employees the Silicon Valley company,0.85
+OpenAI,Company,DEVELOPED,ChatGPT,Technology,b8dbf3e22497d322ffdc::c0000,2023-03-23,OpenAI the creator of ChatGPT,0.95
+Google,Company,PARTNERED_WITH,Samsung,Company,d925f22acb79e69a01f7::c0000,2023-05-08,Google has partnered with Samsung to promise a consistent and reliable background app experience,0.95
+Intel,Company,INVESTED_IN,schools,Company,b731b1085f715f218035::c0000,2023-09-25,By investing in schools colleges and universities we will train the next,0.8
+CBSE,Company,PARTNERED_WITH,IBM,Company,662039d4fb2215c65ffe::c0000,2023-02-03,The Central Board of Secondary Education (CBSE) in partnership with IBM is launching,0.95
+6Sense,Company,DEVELOPED,6sense AI for Sales,Technology,8f8bcb47e7a0df9b5d4a::c0000,2023-03-15,6Sense unveiled 6sense AI for Sales. This new solution applies AI across the sales cycle,0.95
+6sense AI for Sales,Technology,USES,AI,Technology,8f8bcb47e7a0df9b5d4a::c0000,2023-03-15,This new solution applies AI across the sales cycle,0.95
+KPMG,Company,INVESTED_IN,Microsoft,Company,3dd6936aea051cd1e68c::c0000,2023-07-14,KPMG has pledged a $2 billion investment in Microsoft Cloud and AI services,0.95
+KPMG,Company,PARTNERED_WITH,Microsoft,Company,3dd6936aea051cd1e68c::c0000,2023-07-14,KPMG to invest $2 billion in AI in expanded partnership with Microsoft,0.95
+Meta,Company,DEVELOPED,dataset,Technology,5cbacd64b0ebc35f0087::c0000,2023-07-13,A newly developed dataset from Meta AI however promises to improve the performance,0.9
+Apptio,Company,PARTNERED_WITH,ServiceNow,Company,2b774eaf7c59f1739fed::c0000,2023-10-26,Apptio ... announced improved partner interoperability and integration ... with ... ServiceNow,0.9
+Apptio,Company,PARTNERED_WITH,Oracle Cloud,Technology,2b774eaf7c59f1739fed::c0000,2023-10-26,Apptio ... announced improved partner interoperability and integration ... with ... Oracle Cloud,0.9
+KPMG,Company,PARTNERED_WITH,Microsoft,Company,5e28d48f0b306d254eca::c0000,2023-07-16,KPMG and Microsoft have announced an expanded global collaboration,0.95
+Microsoft,Company,INVESTED_IN,Artificial Intelligence,Technology,8c53c428fb2bfa797e4f::c0000,2023-01-14,Investments in Artificial Intelligence over the past decade are now starting to pay off,0.85
+Qualcomm,Company,DEVELOPED,processors,Technology,7c2d7086784c2b1cf1ee::c0000,2023-04-18,Qualcomm unveils new suite of processors for IoT,0.95
+Alibaba,Company,DEVELOPED,Alibaba DAMO Academy,Company,2f470f2db3e3e1f7eaf7::c0000,2023-01-10,Alibaba DAMO Academy ... the global research initiative by Alibaba Group,0.9
