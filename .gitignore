@@ -25,12 +25,12 @@ env/
 hackernoon_subset.csv
 lab19_submission.zip
 
-# ...NHƯNG các file CSV là DELIVERABLE thì phải commit.
-# Không có 3 dòng negation này, outputs/*.csv bị *.csv nuốt mất và
-# bài nộp lên GitHub sẽ thiếu 2 file benchmark (rubric trừ 5 điểm).
+# ...NHUNG cac file CSV la DELIVERABLE thi phai commit.
+# Khong co cac dong negation nay, outputs/*.csv bi *.csv nuot mat va
+# bai nop len GitHub se thieu 2 file benchmark (rubric tru 5 diem).
 !outputs/*.csv
 !reports/*.csv
-!data/golden_dataset.csv
+!data/*.csv
 
 # OS files
 .DS_Store
